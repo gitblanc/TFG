@@ -6,7 +6,8 @@ La verdadera investigación realizada es propiedad de Ebroker, y los datos conte
 
 Todas las imágenes de personas han sido generadas mediante [Perchance.AI](https://perchance.org/ai-human-generator).
 
-![Grafo](https://github.com/user-attachments/assets/dcf66144-5b84-4144-be16-0de27c75a96e)
+![Grafo](https://github.com/user-attachments/assets/69ebb283-40dc-4469-b913-69410db2f60b)
+
 
 ![Empleados](https://github.com/user-attachments/assets/0ba4eaae-9027-49ec-8020-4469134d07c0)
 
