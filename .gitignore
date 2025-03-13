@@ -1,22 +1,31 @@
-### AL ###
-#Template for AL projects for Dynamics 365 Business Central
+### Jupyter ###
 #launch.json folder
 .vscode/
-#Cache folder
-.alcache/
-#Symbols folder
-.alpackages/
-#Snapshots folder
-.snapshots/
-#Testing Output folder
-.output/
-#Extension App-file
-*.app
-#Rapid Application Development File
-rad.json
-#Translation Base-file
-*.g.xlf
-#License-file
-*.flf
-#Test results file
-TestResults.xml
+# Ignorar cachés de Jupyter Notebook
+.ipynb_checkpoints/
+
+# Ignorar archivos de caché de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignorar entornos virtuales
+venv/
+env/
+*.env
+
+# Ignorar la carpeta de scripts anonimizados
+scripts_anonimizados/
+
+# Archivos temporales de editores
+*.swp
+*.swo
+*.bak
+
+# Archivos de configuración de Jupyter Notebook
+*.json
+*.nbconvert
+
+# Ignorar archivos de logs
+*.log
