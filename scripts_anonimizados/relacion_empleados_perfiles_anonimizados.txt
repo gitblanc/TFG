@@ -1,0 +1,892 @@
+MATCH (e:Empleado {nombre: "Teresa Serrano Fernández"}), (spotify:PerfilSocial {plataforma: "Spotify", nombre: "spotify_teresaserranofernandez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(spotify);
+MATCH (e:Empleado {nombre: "Teresa Serrano Fernández"}), (linkedin:PerfilSocial {plataforma: "LinkedIn", nombre: "linkedin_teresaserranofernandez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(linkedin);
+MATCH (e:Empleado {nombre: "Teresa Serrano Fernández"}), (facebook:PerfilSocial {plataforma: "Facebook", nombre: "facebook_teresaserranofernandez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(facebook);
+MATCH (e:Empleado {nombre: "Ricardo Álvarez Serrano"}), (chess:PerfilSocial {plataforma: "Chess", nombre: "chess_ricardoalvarezserrano"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(chess);
+MATCH (e:Empleado {nombre: "Clara Torres Martínez"}), (gravatar:PerfilSocial {plataforma: "Gravatar", nombre: "gravatar_claratorresmartinez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(gravatar);
+MATCH (e:Empleado {nombre: "Clara Torres Martínez"}), (linkedin:PerfilSocial {plataforma: "LinkedIn", nombre: "linkedin_claratorresmartinez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(linkedin);
+MATCH (e:Empleado {nombre: "Clara Torres Martínez"}), (chess:PerfilSocial {plataforma: "Chess", nombre: "chess_claratorresmartinez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(chess);
+MATCH (e:Empleado {nombre: "Clara Torres Martínez"}), (spotify:PerfilSocial {plataforma: "Spotify", nombre: "spotify_claratorresmartinez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(spotify);
+MATCH (e:Empleado {nombre: "Clara Torres Martínez"}), (x:PerfilSocial {plataforma: "X", nombre: "x_claratorresmartinez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(x);
+MATCH (e:Empleado {nombre: "Clara Torres Martínez"}), (threads:PerfilSocial {plataforma: "Threads", nombre: "threads_claratorresmartinez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(threads);
+MATCH (e:Empleado {nombre: "Juan Molina Smith"}), (gravatar:PerfilSocial {plataforma: "Gravatar", nombre: "gravatar_juanmolinasmith"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(gravatar);
+MATCH (e:Empleado {nombre: "Juan Molina Smith"}), (periscope:PerfilSocial {plataforma: "Periscope", nombre: "periscope_juanmolinasmith"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(periscope);
+MATCH (e:Empleado {nombre: "Juan Molina Smith"}), (instagram:PerfilSocial {plataforma: "Instagram", nombre: "instagram_juanmolinasmith"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(instagram);
+MATCH (e:Empleado {nombre: "Juan Molina Smith"}), (threads:PerfilSocial {plataforma: "Threads", nombre: "threads_juanmolinasmith"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(threads);
+MATCH (e:Empleado {nombre: "Juan Molina Smith"}), (spotify:PerfilSocial {plataforma: "Spotify", nombre: "spotify_juanmolinasmith"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(spotify);
+MATCH (e:Empleado {nombre: "Juan Molina Smith"}), (ninegag:PerfilSocial {plataforma: "9gag", nombre: "ninegag_juanmolinasmith"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(ninegag);
+MATCH (e:Empleado {nombre: "Juan Molina Smith"}), (disqus:PerfilSocial {plataforma: "Disqus", nombre: "disqus_juanmolinasmith"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(disqus);
+MATCH (e:Empleado {nombre: "Esteban Ruiz Rodríguez"}), (ninegag:PerfilSocial {plataforma: "9gag", nombre: "ninegag_estebanruizrodriguez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(ninegag);
+MATCH (e:Empleado {nombre: "Esteban Ruiz Rodríguez"}), (facebook:PerfilSocial {plataforma: "Facebook", nombre: "facebook_estebanruizrodriguez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(facebook);
+MATCH (e:Empleado {nombre: "Esteban Ruiz Rodríguez"}), (linkedin:PerfilSocial {plataforma: "LinkedIn", nombre: "linkedin_estebanruizrodriguez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(linkedin);
+MATCH (e:Empleado {nombre: "Esteban Ruiz Rodríguez"}), (disqus:PerfilSocial {plataforma: "Disqus", nombre: "disqus_estebanruizrodriguez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(disqus);
+MATCH (e:Empleado {nombre: "Esteban Ruiz Rodríguez"}), (spotify:PerfilSocial {plataforma: "Spotify", nombre: "spotify_estebanruizrodriguez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(spotify);
+MATCH (e:Empleado {nombre: "Esteban Ruiz Rodríguez"}), (youtube:PerfilSocial {plataforma: "YouTube", nombre: "youtube_estebanruizrodriguez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(youtube);
+MATCH (e:Empleado {nombre: "Esteban Ruiz Rodríguez"}), (x:PerfilSocial {plataforma: "X", nombre: "x_estebanruizrodriguez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(x);
+MATCH (e:Empleado {nombre: "Laura Ortiz Smith"}), (duolingo:PerfilSocial {plataforma: "Duolingo", nombre: "duolingo_lauraortizsmith"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(duolingo);
+MATCH (e:Empleado {nombre: "Laura Ortiz Smith"}), (chess:PerfilSocial {plataforma: "Chess", nombre: "chess_lauraortizsmith"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(chess);
+MATCH (e:Empleado {nombre: "Laura Ortiz Smith"}), (ninegag:PerfilSocial {plataforma: "9gag", nombre: "ninegag_lauraortizsmith"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(ninegag);
+MATCH (e:Empleado {nombre: "Laura Ortiz Smith"}), (gravatar:PerfilSocial {plataforma: "Gravatar", nombre: "gravatar_lauraortizsmith"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(gravatar);
+MATCH (e:Empleado {nombre: "Laura Ortiz Smith"}), (spotify:PerfilSocial {plataforma: "Spotify", nombre: "spotify_lauraortizsmith"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(spotify);
+MATCH (e:Empleado {nombre: "Laura Ortiz Smith"}), (threads:PerfilSocial {plataforma: "Threads", nombre: "threads_lauraortizsmith"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(threads);
+MATCH (e:Empleado {nombre: "Laura Ortiz Smith"}), (disqus:PerfilSocial {plataforma: "Disqus", nombre: "disqus_lauraortizsmith"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(disqus);
+MATCH (e:Empleado {nombre: "Laura Ortiz Smith"}), (facebook:PerfilSocial {plataforma: "Facebook", nombre: "facebook_lauraortizsmith"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(facebook);
+MATCH (e:Empleado {nombre: "Laura Ortiz Smith"}), (linkedin:PerfilSocial {plataforma: "LinkedIn", nombre: "linkedin_lauraortizsmith"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(linkedin);
+MATCH (e:Empleado {nombre: "Laura Ortiz Smith"}), (x:PerfilSocial {plataforma: "X", nombre: "x_lauraortizsmith"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(x);
+MATCH (e:Empleado {nombre: "Fernando Serrano Gil"}), (chess:PerfilSocial {plataforma: "Chess", nombre: "chess_fernandoserranogil"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(chess);
+MATCH (e:Empleado {nombre: "Fernando Serrano Gil"}), (youtube:PerfilSocial {plataforma: "YouTube", nombre: "youtube_fernandoserranogil"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(youtube);
+MATCH (e:Empleado {nombre: "Fernando Serrano Gil"}), (periscope:PerfilSocial {plataforma: "Periscope", nombre: "periscope_fernandoserranogil"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(periscope);
+MATCH (e:Empleado {nombre: "Fernando Serrano Gil"}), (duolingo:PerfilSocial {plataforma: "Duolingo", nombre: "duolingo_fernandoserranogil"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(duolingo);
+MATCH (e:Empleado {nombre: "Fernando Serrano Gil"}), (x:PerfilSocial {plataforma: "X", nombre: "x_fernandoserranogil"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(x);
+MATCH (e:Empleado {nombre: "Fernando Serrano Gil"}), (linkedin:PerfilSocial {plataforma: "LinkedIn", nombre: "linkedin_fernandoserranogil"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(linkedin);
+MATCH (e:Empleado {nombre: "Fernando Serrano Gil"}), (facebook:PerfilSocial {plataforma: "Facebook", nombre: "facebook_fernandoserranogil"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(facebook);
+MATCH (e:Empleado {nombre: "Fernando Serrano Gil"}), (gravatar:PerfilSocial {plataforma: "Gravatar", nombre: "gravatar_fernandoserranogil"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(gravatar);
+MATCH (e:Empleado {nombre: "Fernando Serrano Gil"}), (threads:PerfilSocial {plataforma: "Threads", nombre: "threads_fernandoserranogil"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(threads);
+MATCH (e:Empleado {nombre: "Fernando Serrano Gil"}), (spotify:PerfilSocial {plataforma: "Spotify", nombre: "spotify_fernandoserranogil"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(spotify);
+MATCH (e:Empleado {nombre: "Valeria García Ortiz"}), (instagram:PerfilSocial {plataforma: "Instagram", nombre: "instagram_valeriagarciaortiz"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(instagram);
+MATCH (e:Empleado {nombre: "Valeria García Ortiz"}), (youtube:PerfilSocial {plataforma: "YouTube", nombre: "youtube_valeriagarciaortiz"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(youtube);
+MATCH (e:Empleado {nombre: "Valeria García Ortiz"}), (x:PerfilSocial {plataforma: "X", nombre: "x_valeriagarciaortiz"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(x);
+MATCH (e:Empleado {nombre: "Valeria García Ortiz"}), (periscope:PerfilSocial {plataforma: "Periscope", nombre: "periscope_valeriagarciaortiz"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(periscope);
+MATCH (e:Empleado {nombre: "Valeria García Ortiz"}), (spotify:PerfilSocial {plataforma: "Spotify", nombre: "spotify_valeriagarciaortiz"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(spotify);
+MATCH (e:Empleado {nombre: "Valeria García Ortiz"}), (duolingo:PerfilSocial {plataforma: "Duolingo", nombre: "duolingo_valeriagarciaortiz"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(duolingo);
+MATCH (e:Empleado {nombre: "Valeria García Ortiz"}), (gravatar:PerfilSocial {plataforma: "Gravatar", nombre: "gravatar_valeriagarciaortiz"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(gravatar);
+MATCH (e:Empleado {nombre: "Valeria García Ortiz"}), (disqus:PerfilSocial {plataforma: "Disqus", nombre: "disqus_valeriagarciaortiz"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(disqus);
+MATCH (e:Empleado {nombre: "Valeria García Ortiz"}), (threads:PerfilSocial {plataforma: "Threads", nombre: "threads_valeriagarciaortiz"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(threads);
+MATCH (e:Empleado {nombre: "Valeria García Ortiz"}), (facebook:PerfilSocial {plataforma: "Facebook", nombre: "facebook_valeriagarciaortiz"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(facebook);
+MATCH (e:Empleado {nombre: "Valeria García Ortiz"}), (ninegag:PerfilSocial {plataforma: "9gag", nombre: "ninegag_valeriagarciaortiz"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(ninegag);
+MATCH (e:Empleado {nombre: "Valeria García Ortiz"}), (chess:PerfilSocial {plataforma: "Chess", nombre: "chess_valeriagarciaortiz"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(chess);
+MATCH (e:Empleado {nombre: "Ricardo Suárez Jiménez"}), (youtube:PerfilSocial {plataforma: "YouTube", nombre: "youtube_ricardosuarezjimenez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(youtube);
+MATCH (e:Empleado {nombre: "Ricardo Suárez Jiménez"}), (periscope:PerfilSocial {plataforma: "Periscope", nombre: "periscope_ricardosuarezjimenez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(periscope);
+MATCH (e:Empleado {nombre: "Ricardo Suárez Jiménez"}), (instagram:PerfilSocial {plataforma: "Instagram", nombre: "instagram_ricardosuarezjimenez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(instagram);
+MATCH (e:Empleado {nombre: "Ricardo Suárez Jiménez"}), (facebook:PerfilSocial {plataforma: "Facebook", nombre: "facebook_ricardosuarezjimenez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(facebook);
+MATCH (e:Empleado {nombre: "Ricardo Suárez Jiménez"}), (linkedin:PerfilSocial {plataforma: "LinkedIn", nombre: "linkedin_ricardosuarezjimenez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(linkedin);
+MATCH (e:Empleado {nombre: "Ricardo Suárez Jiménez"}), (ninegag:PerfilSocial {plataforma: "9gag", nombre: "ninegag_ricardosuarezjimenez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(ninegag);
+MATCH (e:Empleado {nombre: "Ricardo Suárez Jiménez"}), (spotify:PerfilSocial {plataforma: "Spotify", nombre: "spotify_ricardosuarezjimenez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(spotify);
+MATCH (e:Empleado {nombre: "Estefanía Sánchez Jiménez"}), (gravatar:PerfilSocial {plataforma: "Gravatar", nombre: "gravatar_estefaniasanchezjimenez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(gravatar);
+MATCH (e:Empleado {nombre: "Sergio Pérez Ramos"}), (threads:PerfilSocial {plataforma: "Threads", nombre: "threads_sergioperezramos"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(threads);
+MATCH (e:Empleado {nombre: "Sergio Pérez Ramos"}), (x:PerfilSocial {plataforma: "X", nombre: "x_sergioperezramos"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(x);
+MATCH (e:Empleado {nombre: "Sergio Pérez Ramos"}), (instagram:PerfilSocial {plataforma: "Instagram", nombre: "instagram_sergioperezramos"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(instagram);
+MATCH (e:Empleado {nombre: "Sergio Pérez Ramos"}), (chess:PerfilSocial {plataforma: "Chess", nombre: "chess_sergioperezramos"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(chess);
+MATCH (e:Empleado {nombre: "Sergio Pérez Ramos"}), (periscope:PerfilSocial {plataforma: "Periscope", nombre: "periscope_sergioperezramos"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(periscope);
+MATCH (e:Empleado {nombre: "Sergio Pérez Ramos"}), (facebook:PerfilSocial {plataforma: "Facebook", nombre: "facebook_sergioperezramos"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(facebook);
+MATCH (e:Empleado {nombre: "Sergio Pérez Ramos"}), (ninegag:PerfilSocial {plataforma: "9gag", nombre: "ninegag_sergioperezramos"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(ninegag);
+MATCH (e:Empleado {nombre: "Sergio Pérez Ramos"}), (spotify:PerfilSocial {plataforma: "Spotify", nombre: "spotify_sergioperezramos"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(spotify);
+MATCH (e:Empleado {nombre: "Sergio Pérez Ramos"}), (linkedin:PerfilSocial {plataforma: "LinkedIn", nombre: "linkedin_sergioperezramos"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(linkedin);
+MATCH (e:Empleado {nombre: "Sergio Pérez Ramos"}), (disqus:PerfilSocial {plataforma: "Disqus", nombre: "disqus_sergioperezramos"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(disqus);
+MATCH (e:Empleado {nombre: "Teresa Hernández Suárez"}), (ninegag:PerfilSocial {plataforma: "9gag", nombre: "ninegag_teresahernandezsuarez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(ninegag);
+MATCH (e:Empleado {nombre: "Teresa Hernández Suárez"}), (gravatar:PerfilSocial {plataforma: "Gravatar", nombre: "gravatar_teresahernandezsuarez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(gravatar);
+MATCH (e:Empleado {nombre: "Teresa Hernández Suárez"}), (facebook:PerfilSocial {plataforma: "Facebook", nombre: "facebook_teresahernandezsuarez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(facebook);
+MATCH (e:Empleado {nombre: "Teresa Hernández Suárez"}), (disqus:PerfilSocial {plataforma: "Disqus", nombre: "disqus_teresahernandezsuarez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(disqus);
+MATCH (e:Empleado {nombre: "Teresa Hernández Suárez"}), (duolingo:PerfilSocial {plataforma: "Duolingo", nombre: "duolingo_teresahernandezsuarez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(duolingo);
+MATCH (e:Empleado {nombre: "Irene Sánchez Torres"}), (facebook:PerfilSocial {plataforma: "Facebook", nombre: "facebook_irenesancheztorres"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(facebook);
+MATCH (e:Empleado {nombre: "Irene Sánchez Torres"}), (threads:PerfilSocial {plataforma: "Threads", nombre: "threads_irenesancheztorres"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(threads);
+MATCH (e:Empleado {nombre: "Irene Sánchez Torres"}), (duolingo:PerfilSocial {plataforma: "Duolingo", nombre: "duolingo_irenesancheztorres"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(duolingo);
+MATCH (e:Empleado {nombre: "Irene Sánchez Torres"}), (spotify:PerfilSocial {plataforma: "Spotify", nombre: "spotify_irenesancheztorres"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(spotify);
+MATCH (e:Empleado {nombre: "Irene Sánchez Torres"}), (ninegag:PerfilSocial {plataforma: "9gag", nombre: "ninegag_irenesancheztorres"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(ninegag);
+MATCH (e:Empleado {nombre: "Irene Sánchez Torres"}), (disqus:PerfilSocial {plataforma: "Disqus", nombre: "disqus_irenesancheztorres"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(disqus);
+MATCH (e:Empleado {nombre: "Irene Sánchez Torres"}), (periscope:PerfilSocial {plataforma: "Periscope", nombre: "periscope_irenesancheztorres"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(periscope);
+MATCH (e:Empleado {nombre: "Silvia Molina Hernández"}), (spotify:PerfilSocial {plataforma: "Spotify", nombre: "spotify_silviamolinahernandez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(spotify);
+MATCH (e:Empleado {nombre: "Silvia Molina Hernández"}), (duolingo:PerfilSocial {plataforma: "Duolingo", nombre: "duolingo_silviamolinahernandez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(duolingo);
+MATCH (e:Empleado {nombre: "Silvia Molina Hernández"}), (x:PerfilSocial {plataforma: "X", nombre: "x_silviamolinahernandez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(x);
+MATCH (e:Empleado {nombre: "Silvia Molina Hernández"}), (youtube:PerfilSocial {plataforma: "YouTube", nombre: "youtube_silviamolinahernandez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(youtube);
+MATCH (e:Empleado {nombre: "Silvia Molina Hernández"}), (instagram:PerfilSocial {plataforma: "Instagram", nombre: "instagram_silviamolinahernandez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(instagram);
+MATCH (e:Empleado {nombre: "Silvia Molina Hernández"}), (chess:PerfilSocial {plataforma: "Chess", nombre: "chess_silviamolinahernandez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(chess);
+MATCH (e:Empleado {nombre: "Silvia Molina Hernández"}), (facebook:PerfilSocial {plataforma: "Facebook", nombre: "facebook_silviamolinahernandez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(facebook);
+MATCH (e:Empleado {nombre: "Julia Sánchez Gómez"}), (periscope:PerfilSocial {plataforma: "Periscope", nombre: "periscope_juliasanchezgomez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(periscope);
+MATCH (e:Empleado {nombre: "Julia Sánchez Gómez"}), (threads:PerfilSocial {plataforma: "Threads", nombre: "threads_juliasanchezgomez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(threads);
+MATCH (e:Empleado {nombre: "Julia Sánchez Gómez"}), (chess:PerfilSocial {plataforma: "Chess", nombre: "chess_juliasanchezgomez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(chess);
+MATCH (e:Empleado {nombre: "Julia Sánchez Gómez"}), (duolingo:PerfilSocial {plataforma: "Duolingo", nombre: "duolingo_juliasanchezgomez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(duolingo);
+MATCH (e:Empleado {nombre: "Julia Sánchez Gómez"}), (spotify:PerfilSocial {plataforma: "Spotify", nombre: "spotify_juliasanchezgomez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(spotify);
+MATCH (e:Empleado {nombre: "Julia Sánchez Gómez"}), (x:PerfilSocial {plataforma: "X", nombre: "x_juliasanchezgomez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(x);
+MATCH (e:Empleado {nombre: "Julia Sánchez Gómez"}), (linkedin:PerfilSocial {plataforma: "LinkedIn", nombre: "linkedin_juliasanchezgomez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(linkedin);
+MATCH (e:Empleado {nombre: "Julia Sánchez Gómez"}), (disqus:PerfilSocial {plataforma: "Disqus", nombre: "disqus_juliasanchezgomez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(disqus);
+MATCH (e:Empleado {nombre: "Julia Sánchez Gómez"}), (ninegag:PerfilSocial {plataforma: "9gag", nombre: "ninegag_juliasanchezgomez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(ninegag);
+MATCH (e:Empleado {nombre: "Julia Sánchez Gómez"}), (youtube:PerfilSocial {plataforma: "YouTube", nombre: "youtube_juliasanchezgomez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(youtube);
+MATCH (e:Empleado {nombre: "Julia Sánchez Gómez"}), (gravatar:PerfilSocial {plataforma: "Gravatar", nombre: "gravatar_juliasanchezgomez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(gravatar);
+MATCH (e:Empleado {nombre: "Laura Sánchez Ramos"}), (duolingo:PerfilSocial {plataforma: "Duolingo", nombre: "duolingo_laurasanchezramos"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(duolingo);
+MATCH (e:Empleado {nombre: "Laura Sánchez Ramos"}), (ninegag:PerfilSocial {plataforma: "9gag", nombre: "ninegag_laurasanchezramos"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(ninegag);
+MATCH (e:Empleado {nombre: "Laura Sánchez Ramos"}), (facebook:PerfilSocial {plataforma: "Facebook", nombre: "facebook_laurasanchezramos"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(facebook);
+MATCH (e:Empleado {nombre: "Laura Sánchez Ramos"}), (chess:PerfilSocial {plataforma: "Chess", nombre: "chess_laurasanchezramos"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(chess);
+MATCH (e:Empleado {nombre: "Carmen Ramírez Suárez"}), (threads:PerfilSocial {plataforma: "Threads", nombre: "threads_carmenramirezsuarez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(threads);
+MATCH (e:Empleado {nombre: "Carmen Ramírez Suárez"}), (periscope:PerfilSocial {plataforma: "Periscope", nombre: "periscope_carmenramirezsuarez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(periscope);
+MATCH (e:Empleado {nombre: "Carmen Ramírez Suárez"}), (ninegag:PerfilSocial {plataforma: "9gag", nombre: "ninegag_carmenramirezsuarez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(ninegag);
+MATCH (e:Empleado {nombre: "Diego Jiménez Serrano"}), (x:PerfilSocial {plataforma: "X", nombre: "x_diegojimenezserrano"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(x);
+MATCH (e:Empleado {nombre: "Raúl Ortiz Martínez"}), (threads:PerfilSocial {plataforma: "Threads", nombre: "threads_raulortizmartinez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(threads);
+MATCH (e:Empleado {nombre: "Raúl Ortiz Martínez"}), (duolingo:PerfilSocial {plataforma: "Duolingo", nombre: "duolingo_raulortizmartinez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(duolingo);
+MATCH (e:Empleado {nombre: "Raúl Ortiz Martínez"}), (ninegag:PerfilSocial {plataforma: "9gag", nombre: "ninegag_raulortizmartinez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(ninegag);
+MATCH (e:Empleado {nombre: "Raúl Ortiz Martínez"}), (facebook:PerfilSocial {plataforma: "Facebook", nombre: "facebook_raulortizmartinez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(facebook);
+MATCH (e:Empleado {nombre: "Raúl Ortiz Martínez"}), (instagram:PerfilSocial {plataforma: "Instagram", nombre: "instagram_raulortizmartinez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(instagram);
+MATCH (e:Empleado {nombre: "Raúl Ortiz Martínez"}), (linkedin:PerfilSocial {plataforma: "LinkedIn", nombre: "linkedin_raulortizmartinez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(linkedin);
+MATCH (e:Empleado {nombre: "Raúl Ortiz Martínez"}), (youtube:PerfilSocial {plataforma: "YouTube", nombre: "youtube_raulortizmartinez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(youtube);
+MATCH (e:Empleado {nombre: "Raúl Ortiz Martínez"}), (x:PerfilSocial {plataforma: "X", nombre: "x_raulortizmartinez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(x);
+MATCH (e:Empleado {nombre: "Raúl Ortiz Martínez"}), (gravatar:PerfilSocial {plataforma: "Gravatar", nombre: "gravatar_raulortizmartinez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(gravatar);
+MATCH (e:Empleado {nombre: "Raúl Ortiz Martínez"}), (disqus:PerfilSocial {plataforma: "Disqus", nombre: "disqus_raulortizmartinez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(disqus);
+MATCH (e:Empleado {nombre: "Raúl Ortiz Martínez"}), (spotify:PerfilSocial {plataforma: "Spotify", nombre: "spotify_raulortizmartinez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(spotify);
+MATCH (e:Empleado {nombre: "Raúl Ortiz Martínez"}), (periscope:PerfilSocial {plataforma: "Periscope", nombre: "periscope_raulortizmartinez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(periscope);
+MATCH (e:Empleado {nombre: "Luis Vázquez Castro"}), (x:PerfilSocial {plataforma: "X", nombre: "x_luisvazquezcastro"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(x);
+MATCH (e:Empleado {nombre: "Luis Vázquez Castro"}), (disqus:PerfilSocial {plataforma: "Disqus", nombre: "disqus_luisvazquezcastro"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(disqus);
+MATCH (e:Empleado {nombre: "Luis Vázquez Castro"}), (gravatar:PerfilSocial {plataforma: "Gravatar", nombre: "gravatar_luisvazquezcastro"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(gravatar);
+MATCH (e:Empleado {nombre: "Luis Vázquez Castro"}), (spotify:PerfilSocial {plataforma: "Spotify", nombre: "spotify_luisvazquezcastro"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(spotify);
+MATCH (e:Empleado {nombre: "Luis Ramos Ruiz"}), (threads:PerfilSocial {plataforma: "Threads", nombre: "threads_luisramosruiz"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(threads);
+MATCH (e:Empleado {nombre: "Diego Navarro Gil"}), (facebook:PerfilSocial {plataforma: "Facebook", nombre: "facebook_diegonavarrogil"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(facebook);
+MATCH (e:Empleado {nombre: "Diego Navarro Gil"}), (gravatar:PerfilSocial {plataforma: "Gravatar", nombre: "gravatar_diegonavarrogil"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(gravatar);
+MATCH (e:Empleado {nombre: "Alejandra Hernández Molina"}), (spotify:PerfilSocial {plataforma: "Spotify", nombre: "spotify_alejandrahernandezmolina"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(spotify);
+MATCH (e:Empleado {nombre: "Alejandra Hernández Molina"}), (periscope:PerfilSocial {plataforma: "Periscope", nombre: "periscope_alejandrahernandezmolina"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(periscope);
+MATCH (e:Empleado {nombre: "Alejandra Hernández Molina"}), (gravatar:PerfilSocial {plataforma: "Gravatar", nombre: "gravatar_alejandrahernandezmolina"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(gravatar);
+MATCH (e:Empleado {nombre: "Alejandra Hernández Molina"}), (chess:PerfilSocial {plataforma: "Chess", nombre: "chess_alejandrahernandezmolina"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(chess);
+MATCH (e:Empleado {nombre: "Raúl Flores Romero"}), (x:PerfilSocial {plataforma: "X", nombre: "x_raulfloresromero"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(x);
+MATCH (e:Empleado {nombre: "Raúl Flores Romero"}), (periscope:PerfilSocial {plataforma: "Periscope", nombre: "periscope_raulfloresromero"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(periscope);
+MATCH (e:Empleado {nombre: "Raúl Flores Romero"}), (chess:PerfilSocial {plataforma: "Chess", nombre: "chess_raulfloresromero"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(chess);
+MATCH (e:Empleado {nombre: "Valeria Álvarez Martín"}), (duolingo:PerfilSocial {plataforma: "Duolingo", nombre: "duolingo_valeriaalvarezmartin"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(duolingo);
+MATCH (e:Empleado {nombre: "Valeria Álvarez Martín"}), (chess:PerfilSocial {plataforma: "Chess", nombre: "chess_valeriaalvarezmartin"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(chess);
+MATCH (e:Empleado {nombre: "Javier Sánchez Gutiérrez"}), (instagram:PerfilSocial {plataforma: "Instagram", nombre: "instagram_javiersanchezgutierrez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(instagram);
+MATCH (e:Empleado {nombre: "Javier Sánchez Gutiérrez"}), (disqus:PerfilSocial {plataforma: "Disqus", nombre: "disqus_javiersanchezgutierrez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(disqus);
+MATCH (e:Empleado {nombre: "Javier Sánchez Gutiérrez"}), (threads:PerfilSocial {plataforma: "Threads", nombre: "threads_javiersanchezgutierrez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(threads);
+MATCH (e:Empleado {nombre: "Javier Sánchez Gutiérrez"}), (spotify:PerfilSocial {plataforma: "Spotify", nombre: "spotify_javiersanchezgutierrez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(spotify);
+MATCH (e:Empleado {nombre: "Javier Sánchez Gutiérrez"}), (x:PerfilSocial {plataforma: "X", nombre: "x_javiersanchezgutierrez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(x);
+MATCH (e:Empleado {nombre: "Javier Sánchez Gutiérrez"}), (linkedin:PerfilSocial {plataforma: "LinkedIn", nombre: "linkedin_javiersanchezgutierrez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(linkedin);
+MATCH (e:Empleado {nombre: "Javier Sánchez Gutiérrez"}), (chess:PerfilSocial {plataforma: "Chess", nombre: "chess_javiersanchezgutierrez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(chess);
+MATCH (e:Empleado {nombre: "Javier Sánchez Gutiérrez"}), (facebook:PerfilSocial {plataforma: "Facebook", nombre: "facebook_javiersanchezgutierrez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(facebook);
+MATCH (e:Empleado {nombre: "Javier Sánchez Gutiérrez"}), (youtube:PerfilSocial {plataforma: "YouTube", nombre: "youtube_javiersanchezgutierrez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(youtube);
+MATCH (e:Empleado {nombre: "Ricardo Vázquez Martín"}), (gravatar:PerfilSocial {plataforma: "Gravatar", nombre: "gravatar_ricardovazquezmartin"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(gravatar);
+MATCH (e:Empleado {nombre: "Ricardo Vázquez Martín"}), (linkedin:PerfilSocial {plataforma: "LinkedIn", nombre: "linkedin_ricardovazquezmartin"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(linkedin);
+MATCH (e:Empleado {nombre: "Ricardo Vázquez Martín"}), (ninegag:PerfilSocial {plataforma: "9gag", nombre: "ninegag_ricardovazquezmartin"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(ninegag);
+MATCH (e:Empleado {nombre: "Ricardo Vázquez Martín"}), (periscope:PerfilSocial {plataforma: "Periscope", nombre: "periscope_ricardovazquezmartin"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(periscope);
+MATCH (e:Empleado {nombre: "Ricardo Vázquez Martín"}), (disqus:PerfilSocial {plataforma: "Disqus", nombre: "disqus_ricardovazquezmartin"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(disqus);
+MATCH (e:Empleado {nombre: "Ricardo Vázquez Martín"}), (spotify:PerfilSocial {plataforma: "Spotify", nombre: "spotify_ricardovazquezmartin"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(spotify);
+MATCH (e:Empleado {nombre: "Ricardo Vázquez Martín"}), (threads:PerfilSocial {plataforma: "Threads", nombre: "threads_ricardovazquezmartin"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(threads);
+MATCH (e:Empleado {nombre: "Ricardo Vázquez Martín"}), (instagram:PerfilSocial {plataforma: "Instagram", nombre: "instagram_ricardovazquezmartin"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(instagram);
+MATCH (e:Empleado {nombre: "Ricardo Vázquez Martín"}), (chess:PerfilSocial {plataforma: "Chess", nombre: "chess_ricardovazquezmartin"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(chess);
+MATCH (e:Empleado {nombre: "Ricardo Vázquez Martín"}), (x:PerfilSocial {plataforma: "X", nombre: "x_ricardovazquezmartin"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(x);
+MATCH (e:Empleado {nombre: "Ricardo Vázquez Martín"}), (duolingo:PerfilSocial {plataforma: "Duolingo", nombre: "duolingo_ricardovazquezmartin"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(duolingo);
+MATCH (e:Empleado {nombre: "Ricardo Vázquez Martín"}), (youtube:PerfilSocial {plataforma: "YouTube", nombre: "youtube_ricardovazquezmartin"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(youtube);
+MATCH (e:Empleado {nombre: "Carlos Ortiz Jiménez"}), (periscope:PerfilSocial {plataforma: "Periscope", nombre: "periscope_carlosortizjimenez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(periscope);
+MATCH (e:Empleado {nombre: "Carlos Ortiz Jiménez"}), (threads:PerfilSocial {plataforma: "Threads", nombre: "threads_carlosortizjimenez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(threads);
+MATCH (e:Empleado {nombre: "Carlos Ortiz Jiménez"}), (disqus:PerfilSocial {plataforma: "Disqus", nombre: "disqus_carlosortizjimenez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(disqus);
+MATCH (e:Empleado {nombre: "Carlos Ortiz Jiménez"}), (instagram:PerfilSocial {plataforma: "Instagram", nombre: "instagram_carlosortizjimenez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(instagram);
+MATCH (e:Empleado {nombre: "Carlos Ortiz Jiménez"}), (duolingo:PerfilSocial {plataforma: "Duolingo", nombre: "duolingo_carlosortizjimenez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(duolingo);
+MATCH (e:Empleado {nombre: "Antonio García Díaz"}), (youtube:PerfilSocial {plataforma: "YouTube", nombre: "youtube_antoniogarciadiaz"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(youtube);
+MATCH (e:Empleado {nombre: "Cristina Castro Gutiérrez"}), (chess:PerfilSocial {plataforma: "Chess", nombre: "chess_cristinacastrogutierrez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(chess);
+MATCH (e:Empleado {nombre: "Cristina Castro Gutiérrez"}), (disqus:PerfilSocial {plataforma: "Disqus", nombre: "disqus_cristinacastrogutierrez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(disqus);
+MATCH (e:Empleado {nombre: "Cristina Castro Gutiérrez"}), (instagram:PerfilSocial {plataforma: "Instagram", nombre: "instagram_cristinacastrogutierrez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(instagram);
+MATCH (e:Empleado {nombre: "Cristina Castro Gutiérrez"}), (linkedin:PerfilSocial {plataforma: "LinkedIn", nombre: "linkedin_cristinacastrogutierrez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(linkedin);
+MATCH (e:Empleado {nombre: "Cristina Castro Gutiérrez"}), (periscope:PerfilSocial {plataforma: "Periscope", nombre: "periscope_cristinacastrogutierrez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(periscope);
+MATCH (e:Empleado {nombre: "Cristina Castro Gutiérrez"}), (gravatar:PerfilSocial {plataforma: "Gravatar", nombre: "gravatar_cristinacastrogutierrez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(gravatar);
+MATCH (e:Empleado {nombre: "Cristina Castro Gutiérrez"}), (facebook:PerfilSocial {plataforma: "Facebook", nombre: "facebook_cristinacastrogutierrez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(facebook);
+MATCH (e:Empleado {nombre: "Cristina Castro Gutiérrez"}), (x:PerfilSocial {plataforma: "X", nombre: "x_cristinacastrogutierrez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(x);
+MATCH (e:Empleado {nombre: "Cristina Castro Gutiérrez"}), (threads:PerfilSocial {plataforma: "Threads", nombre: "threads_cristinacastrogutierrez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(threads);
+MATCH (e:Empleado {nombre: "Cristina Castro Gutiérrez"}), (duolingo:PerfilSocial {plataforma: "Duolingo", nombre: "duolingo_cristinacastrogutierrez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(duolingo);
+MATCH (e:Empleado {nombre: "Cristina Castro Gutiérrez"}), (youtube:PerfilSocial {plataforma: "YouTube", nombre: "youtube_cristinacastrogutierrez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(youtube);
+MATCH (e:Empleado {nombre: "Cristina Castro Gutiérrez"}), (ninegag:PerfilSocial {plataforma: "9gag", nombre: "ninegag_cristinacastrogutierrez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(ninegag);
+MATCH (e:Empleado {nombre: "Cristina Castro Gutiérrez"}), (spotify:PerfilSocial {plataforma: "Spotify", nombre: "spotify_cristinacastrogutierrez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(spotify);
+MATCH (e:Empleado {nombre: "Clara Flores Ruiz"}), (spotify:PerfilSocial {plataforma: "Spotify", nombre: "spotify_clarafloresruiz"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(spotify);
+MATCH (e:Empleado {nombre: "Clara Flores Ruiz"}), (disqus:PerfilSocial {plataforma: "Disqus", nombre: "disqus_clarafloresruiz"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(disqus);
+MATCH (e:Empleado {nombre: "Clara Flores Ruiz"}), (ninegag:PerfilSocial {plataforma: "9gag", nombre: "ninegag_clarafloresruiz"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(ninegag);
+MATCH (e:Empleado {nombre: "Clara Flores Ruiz"}), (threads:PerfilSocial {plataforma: "Threads", nombre: "threads_clarafloresruiz"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(threads);
+MATCH (e:Empleado {nombre: "Clara Flores Ruiz"}), (youtube:PerfilSocial {plataforma: "YouTube", nombre: "youtube_clarafloresruiz"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(youtube);
+MATCH (e:Empleado {nombre: "Clara Flores Ruiz"}), (instagram:PerfilSocial {plataforma: "Instagram", nombre: "instagram_clarafloresruiz"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(instagram);
+MATCH (e:Empleado {nombre: "Clara Flores Ruiz"}), (x:PerfilSocial {plataforma: "X", nombre: "x_clarafloresruiz"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(x);
+MATCH (e:Empleado {nombre: "Clara Flores Ruiz"}), (duolingo:PerfilSocial {plataforma: "Duolingo", nombre: "duolingo_clarafloresruiz"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(duolingo);
+MATCH (e:Empleado {nombre: "Clara Flores Ruiz"}), (linkedin:PerfilSocial {plataforma: "LinkedIn", nombre: "linkedin_clarafloresruiz"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(linkedin);
+MATCH (e:Empleado {nombre: "Clara Flores Ruiz"}), (periscope:PerfilSocial {plataforma: "Periscope", nombre: "periscope_clarafloresruiz"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(periscope);
+MATCH (e:Empleado {nombre: "Clara Flores Ruiz"}), (facebook:PerfilSocial {plataforma: "Facebook", nombre: "facebook_clarafloresruiz"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(facebook);
+MATCH (e:Empleado {nombre: "Clara Flores Ruiz"}), (chess:PerfilSocial {plataforma: "Chess", nombre: "chess_clarafloresruiz"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(chess);
+MATCH (e:Empleado {nombre: "Manuel García Castro"}), (disqus:PerfilSocial {plataforma: "Disqus", nombre: "disqus_manuelgarciacastro"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(disqus);
+MATCH (e:Empleado {nombre: "Estefanía Jiménez Gutiérrez"}), (linkedin:PerfilSocial {plataforma: "LinkedIn", nombre: "linkedin_estefaniajimenezgutierrez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(linkedin);
+MATCH (e:Empleado {nombre: "Vicente López Vázquez"}), (periscope:PerfilSocial {plataforma: "Periscope", nombre: "periscope_vicentelopezvazquez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(periscope);
+MATCH (e:Empleado {nombre: "Vicente López Vázquez"}), (ninegag:PerfilSocial {plataforma: "9gag", nombre: "ninegag_vicentelopezvazquez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(ninegag);
+MATCH (e:Empleado {nombre: "Estefanía Serrano Gutiérrez"}), (x:PerfilSocial {plataforma: "X", nombre: "x_estefaniaserranogutierrez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(x);
+MATCH (e:Empleado {nombre: "Estefanía Serrano Gutiérrez"}), (ninegag:PerfilSocial {plataforma: "9gag", nombre: "ninegag_estefaniaserranogutierrez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(ninegag);
+MATCH (e:Empleado {nombre: "Estefanía Serrano Gutiérrez"}), (gravatar:PerfilSocial {plataforma: "Gravatar", nombre: "gravatar_estefaniaserranogutierrez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(gravatar);
+MATCH (e:Empleado {nombre: "Estefanía Serrano Gutiérrez"}), (spotify:PerfilSocial {plataforma: "Spotify", nombre: "spotify_estefaniaserranogutierrez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(spotify);
+MATCH (e:Empleado {nombre: "Estefanía Serrano Gutiérrez"}), (threads:PerfilSocial {plataforma: "Threads", nombre: "threads_estefaniaserranogutierrez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(threads);
+MATCH (e:Empleado {nombre: "Estefanía Serrano Gutiérrez"}), (periscope:PerfilSocial {plataforma: "Periscope", nombre: "periscope_estefaniaserranogutierrez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(periscope);
+MATCH (e:Empleado {nombre: "Javier Flores Gil"}), (ninegag:PerfilSocial {plataforma: "9gag", nombre: "ninegag_javierfloresgil"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(ninegag);
+MATCH (e:Empleado {nombre: "Javier Flores Gil"}), (disqus:PerfilSocial {plataforma: "Disqus", nombre: "disqus_javierfloresgil"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(disqus);
+MATCH (e:Empleado {nombre: "Javier Flores Gil"}), (chess:PerfilSocial {plataforma: "Chess", nombre: "chess_javierfloresgil"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(chess);
+MATCH (e:Empleado {nombre: "Javier Flores Gil"}), (x:PerfilSocial {plataforma: "X", nombre: "x_javierfloresgil"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(x);
+MATCH (e:Empleado {nombre: "Javier Flores Gil"}), (gravatar:PerfilSocial {plataforma: "Gravatar", nombre: "gravatar_javierfloresgil"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(gravatar);
+MATCH (e:Empleado {nombre: "Carmen Ramírez Martín"}), (threads:PerfilSocial {plataforma: "Threads", nombre: "threads_carmenramirezmartin"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(threads);
+MATCH (e:Empleado {nombre: "Carmen Ramírez Martín"}), (facebook:PerfilSocial {plataforma: "Facebook", nombre: "facebook_carmenramirezmartin"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(facebook);
+MATCH (e:Empleado {nombre: "Carmen Ramírez Martín"}), (x:PerfilSocial {plataforma: "X", nombre: "x_carmenramirezmartin"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(x);
+MATCH (e:Empleado {nombre: "Carmen Ramírez Martín"}), (duolingo:PerfilSocial {plataforma: "Duolingo", nombre: "duolingo_carmenramirezmartin"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(duolingo);
+MATCH (e:Empleado {nombre: "Carlos Ramírez Hernández"}), (threads:PerfilSocial {plataforma: "Threads", nombre: "threads_carlosramirezhernandez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(threads);
+MATCH (e:Empleado {nombre: "Carlos Ramírez Hernández"}), (x:PerfilSocial {plataforma: "X", nombre: "x_carlosramirezhernandez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(x);
+MATCH (e:Empleado {nombre: "Carlos Ramírez Hernández"}), (linkedin:PerfilSocial {plataforma: "LinkedIn", nombre: "linkedin_carlosramirezhernandez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(linkedin);
+MATCH (e:Empleado {nombre: "Carlos Ramírez Hernández"}), (facebook:PerfilSocial {plataforma: "Facebook", nombre: "facebook_carlosramirezhernandez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(facebook);
+MATCH (e:Empleado {nombre: "Carlos Ramírez Hernández"}), (spotify:PerfilSocial {plataforma: "Spotify", nombre: "spotify_carlosramirezhernandez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(spotify);
+MATCH (e:Empleado {nombre: "Carlos Ramírez Hernández"}), (periscope:PerfilSocial {plataforma: "Periscope", nombre: "periscope_carlosramirezhernandez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(periscope);
+MATCH (e:Empleado {nombre: "Carlos Ramírez Hernández"}), (gravatar:PerfilSocial {plataforma: "Gravatar", nombre: "gravatar_carlosramirezhernandez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(gravatar);
+MATCH (e:Empleado {nombre: "Carlos Ramírez Hernández"}), (youtube:PerfilSocial {plataforma: "YouTube", nombre: "youtube_carlosramirezhernandez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(youtube);
+MATCH (e:Empleado {nombre: "Carlos Ramírez Hernández"}), (ninegag:PerfilSocial {plataforma: "9gag", nombre: "ninegag_carlosramirezhernandez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(ninegag);
+MATCH (e:Empleado {nombre: "Carlos Ramírez Hernández"}), (duolingo:PerfilSocial {plataforma: "Duolingo", nombre: "duolingo_carlosramirezhernandez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(duolingo);
+MATCH (e:Empleado {nombre: "Carlos Ramírez Hernández"}), (instagram:PerfilSocial {plataforma: "Instagram", nombre: "instagram_carlosramirezhernandez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(instagram);
+MATCH (e:Empleado {nombre: "Carlos Ramírez Hernández"}), (chess:PerfilSocial {plataforma: "Chess", nombre: "chess_carlosramirezhernandez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(chess);
+MATCH (e:Empleado {nombre: "Juan Serrano Ruiz"}), (threads:PerfilSocial {plataforma: "Threads", nombre: "threads_juanserranoruiz"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(threads);
+MATCH (e:Empleado {nombre: "Juan Serrano Ruiz"}), (facebook:PerfilSocial {plataforma: "Facebook", nombre: "facebook_juanserranoruiz"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(facebook);
+MATCH (e:Empleado {nombre: "Juan Serrano Ruiz"}), (gravatar:PerfilSocial {plataforma: "Gravatar", nombre: "gravatar_juanserranoruiz"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(gravatar);
+MATCH (e:Empleado {nombre: "Clara Ramos Jiménez"}), (youtube:PerfilSocial {plataforma: "YouTube", nombre: "youtube_clararamosjimenez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(youtube);
+MATCH (e:Empleado {nombre: "Clara Ramos Jiménez"}), (gravatar:PerfilSocial {plataforma: "Gravatar", nombre: "gravatar_clararamosjimenez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(gravatar);
+MATCH (e:Empleado {nombre: "Clara Ramos Jiménez"}), (instagram:PerfilSocial {plataforma: "Instagram", nombre: "instagram_clararamosjimenez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(instagram);
+MATCH (e:Empleado {nombre: "Clara Ramos Jiménez"}), (chess:PerfilSocial {plataforma: "Chess", nombre: "chess_clararamosjimenez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(chess);
+MATCH (e:Empleado {nombre: "Diego Rodríguez Castro"}), (spotify:PerfilSocial {plataforma: "Spotify", nombre: "spotify_diegorodriguezcastro"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(spotify);
+MATCH (e:Empleado {nombre: "Diego Rodríguez Castro"}), (chess:PerfilSocial {plataforma: "Chess", nombre: "chess_diegorodriguezcastro"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(chess);
+MATCH (e:Empleado {nombre: "Diego Rodríguez Castro"}), (x:PerfilSocial {plataforma: "X", nombre: "x_diegorodriguezcastro"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(x);
+MATCH (e:Empleado {nombre: "Diego Rodríguez Castro"}), (linkedin:PerfilSocial {plataforma: "LinkedIn", nombre: "linkedin_diegorodriguezcastro"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(linkedin);
+MATCH (e:Empleado {nombre: "Paula López García"}), (linkedin:PerfilSocial {plataforma: "LinkedIn", nombre: "linkedin_paulalopezgarcia"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(linkedin);
+MATCH (e:Empleado {nombre: "Paula López García"}), (instagram:PerfilSocial {plataforma: "Instagram", nombre: "instagram_paulalopezgarcia"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(instagram);
+MATCH (e:Empleado {nombre: "Paula López García"}), (chess:PerfilSocial {plataforma: "Chess", nombre: "chess_paulalopezgarcia"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(chess);
+MATCH (e:Empleado {nombre: "Paula López García"}), (disqus:PerfilSocial {plataforma: "Disqus", nombre: "disqus_paulalopezgarcia"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(disqus);
+MATCH (e:Empleado {nombre: "Paula López García"}), (ninegag:PerfilSocial {plataforma: "9gag", nombre: "ninegag_paulalopezgarcia"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(ninegag);
+MATCH (e:Empleado {nombre: "Paula López García"}), (x:PerfilSocial {plataforma: "X", nombre: "x_paulalopezgarcia"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(x);
+MATCH (e:Empleado {nombre: "Paula López García"}), (youtube:PerfilSocial {plataforma: "YouTube", nombre: "youtube_paulalopezgarcia"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(youtube);
+MATCH (e:Empleado {nombre: "Paula López García"}), (duolingo:PerfilSocial {plataforma: "Duolingo", nombre: "duolingo_paulalopezgarcia"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(duolingo);
+MATCH (e:Empleado {nombre: "Paula López García"}), (spotify:PerfilSocial {plataforma: "Spotify", nombre: "spotify_paulalopezgarcia"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(spotify);
+MATCH (e:Empleado {nombre: "Paula López García"}), (facebook:PerfilSocial {plataforma: "Facebook", nombre: "facebook_paulalopezgarcia"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(facebook);
+MATCH (e:Empleado {nombre: "Paula López García"}), (threads:PerfilSocial {plataforma: "Threads", nombre: "threads_paulalopezgarcia"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(threads);
+MATCH (e:Empleado {nombre: "Paula López García"}), (periscope:PerfilSocial {plataforma: "Periscope", nombre: "periscope_paulalopezgarcia"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(periscope);
+MATCH (e:Empleado {nombre: "Paula López García"}), (gravatar:PerfilSocial {plataforma: "Gravatar", nombre: "gravatar_paulalopezgarcia"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(gravatar);
+MATCH (e:Empleado {nombre: "Cristina Rodríguez Vázquez"}), (disqus:PerfilSocial {plataforma: "Disqus", nombre: "disqus_cristinarodriguezvazquez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(disqus);
+MATCH (e:Empleado {nombre: "Cristina Rodríguez Vázquez"}), (chess:PerfilSocial {plataforma: "Chess", nombre: "chess_cristinarodriguezvazquez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(chess);
+MATCH (e:Empleado {nombre: "Cristina Rodríguez Vázquez"}), (ninegag:PerfilSocial {plataforma: "9gag", nombre: "ninegag_cristinarodriguezvazquez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(ninegag);
+MATCH (e:Empleado {nombre: "Cristina Rodríguez Vázquez"}), (instagram:PerfilSocial {plataforma: "Instagram", nombre: "instagram_cristinarodriguezvazquez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(instagram);
+MATCH (e:Empleado {nombre: "Cristina Rodríguez Vázquez"}), (linkedin:PerfilSocial {plataforma: "LinkedIn", nombre: "linkedin_cristinarodriguezvazquez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(linkedin);
+MATCH (e:Empleado {nombre: "Cristina Rodríguez Vázquez"}), (x:PerfilSocial {plataforma: "X", nombre: "x_cristinarodriguezvazquez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(x);
+MATCH (e:Empleado {nombre: "Germán Vázquez Moreno"}), (x:PerfilSocial {plataforma: "X", nombre: "x_germanvazquezmoreno"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(x);
+MATCH (e:Empleado {nombre: "Germán Vázquez Moreno"}), (chess:PerfilSocial {plataforma: "Chess", nombre: "chess_germanvazquezmoreno"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(chess);
+MATCH (e:Empleado {nombre: "Germán Vázquez Moreno"}), (youtube:PerfilSocial {plataforma: "YouTube", nombre: "youtube_germanvazquezmoreno"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(youtube);
+MATCH (e:Empleado {nombre: "Germán Vázquez Moreno"}), (instagram:PerfilSocial {plataforma: "Instagram", nombre: "instagram_germanvazquezmoreno"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(instagram);
+MATCH (e:Empleado {nombre: "Germán Vázquez Moreno"}), (periscope:PerfilSocial {plataforma: "Periscope", nombre: "periscope_germanvazquezmoreno"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(periscope);
+MATCH (e:Empleado {nombre: "Germán Vázquez Moreno"}), (disqus:PerfilSocial {plataforma: "Disqus", nombre: "disqus_germanvazquezmoreno"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(disqus);
+MATCH (e:Empleado {nombre: "Germán Vázquez Moreno"}), (gravatar:PerfilSocial {plataforma: "Gravatar", nombre: "gravatar_germanvazquezmoreno"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(gravatar);
+MATCH (e:Empleado {nombre: "Germán Vázquez Moreno"}), (ninegag:PerfilSocial {plataforma: "9gag", nombre: "ninegag_germanvazquezmoreno"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(ninegag);
+MATCH (e:Empleado {nombre: "Germán Vázquez Moreno"}), (facebook:PerfilSocial {plataforma: "Facebook", nombre: "facebook_germanvazquezmoreno"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(facebook);
+MATCH (e:Empleado {nombre: "Germán Vázquez Moreno"}), (linkedin:PerfilSocial {plataforma: "LinkedIn", nombre: "linkedin_germanvazquezmoreno"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(linkedin);
+MATCH (e:Empleado {nombre: "Germán Vázquez Moreno"}), (duolingo:PerfilSocial {plataforma: "Duolingo", nombre: "duolingo_germanvazquezmoreno"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(duolingo);
+MATCH (e:Empleado {nombre: "Juan Ortiz Gómez"}), (ninegag:PerfilSocial {plataforma: "9gag", nombre: "ninegag_juanortizgomez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(ninegag);
+MATCH (e:Empleado {nombre: "Juan Ortiz Gómez"}), (facebook:PerfilSocial {plataforma: "Facebook", nombre: "facebook_juanortizgomez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(facebook);
+MATCH (e:Empleado {nombre: "Juan Ortiz Gómez"}), (gravatar:PerfilSocial {plataforma: "Gravatar", nombre: "gravatar_juanortizgomez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(gravatar);
+MATCH (e:Empleado {nombre: "Juan Ortiz Gómez"}), (chess:PerfilSocial {plataforma: "Chess", nombre: "chess_juanortizgomez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(chess);
+MATCH (e:Empleado {nombre: "Andrea García Flores"}), (periscope:PerfilSocial {plataforma: "Periscope", nombre: "periscope_andreagarciaflores"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(periscope);
+MATCH (e:Empleado {nombre: "Andrea García Flores"}), (duolingo:PerfilSocial {plataforma: "Duolingo", nombre: "duolingo_andreagarciaflores"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(duolingo);
+MATCH (e:Empleado {nombre: "Andrea García Flores"}), (linkedin:PerfilSocial {plataforma: "LinkedIn", nombre: "linkedin_andreagarciaflores"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(linkedin);
+MATCH (e:Empleado {nombre: "Andrea García Flores"}), (disqus:PerfilSocial {plataforma: "Disqus", nombre: "disqus_andreagarciaflores"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(disqus);
+MATCH (e:Empleado {nombre: "Andrea García Flores"}), (youtube:PerfilSocial {plataforma: "YouTube", nombre: "youtube_andreagarciaflores"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(youtube);
+MATCH (e:Empleado {nombre: "Andrea García Flores"}), (threads:PerfilSocial {plataforma: "Threads", nombre: "threads_andreagarciaflores"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(threads);
+MATCH (e:Empleado {nombre: "Andrea García Flores"}), (gravatar:PerfilSocial {plataforma: "Gravatar", nombre: "gravatar_andreagarciaflores"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(gravatar);
+MATCH (e:Empleado {nombre: "Andrea García Flores"}), (facebook:PerfilSocial {plataforma: "Facebook", nombre: "facebook_andreagarciaflores"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(facebook);
+MATCH (e:Empleado {nombre: "Andrea García Flores"}), (spotify:PerfilSocial {plataforma: "Spotify", nombre: "spotify_andreagarciaflores"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(spotify);
+MATCH (e:Empleado {nombre: "Andrea García Flores"}), (x:PerfilSocial {plataforma: "X", nombre: "x_andreagarciaflores"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(x);
+MATCH (e:Empleado {nombre: "Andrea García Flores"}), (instagram:PerfilSocial {plataforma: "Instagram", nombre: "instagram_andreagarciaflores"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(instagram);
+MATCH (e:Empleado {nombre: "Andrea García Flores"}), (ninegag:PerfilSocial {plataforma: "9gag", nombre: "ninegag_andreagarciaflores"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(ninegag);
+MATCH (e:Empleado {nombre: "Ricardo Hernández Molina"}), (ninegag:PerfilSocial {plataforma: "9gag", nombre: "ninegag_ricardohernandezmolina"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(ninegag);
+MATCH (e:Empleado {nombre: "Ricardo Hernández Molina"}), (instagram:PerfilSocial {plataforma: "Instagram", nombre: "instagram_ricardohernandezmolina"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(instagram);
+MATCH (e:Empleado {nombre: "Ricardo Hernández Molina"}), (gravatar:PerfilSocial {plataforma: "Gravatar", nombre: "gravatar_ricardohernandezmolina"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(gravatar);
+MATCH (e:Empleado {nombre: "Ricardo Hernández Molina"}), (duolingo:PerfilSocial {plataforma: "Duolingo", nombre: "duolingo_ricardohernandezmolina"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(duolingo);
+MATCH (e:Empleado {nombre: "Ricardo Hernández Molina"}), (threads:PerfilSocial {plataforma: "Threads", nombre: "threads_ricardohernandezmolina"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(threads);
+MATCH (e:Empleado {nombre: "Ricardo Hernández Molina"}), (youtube:PerfilSocial {plataforma: "YouTube", nombre: "youtube_ricardohernandezmolina"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(youtube);
+MATCH (e:Empleado {nombre: "Ricardo Hernández Molina"}), (linkedin:PerfilSocial {plataforma: "LinkedIn", nombre: "linkedin_ricardohernandezmolina"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(linkedin);
+MATCH (e:Empleado {nombre: "Ricardo Hernández Molina"}), (facebook:PerfilSocial {plataforma: "Facebook", nombre: "facebook_ricardohernandezmolina"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(facebook);
+MATCH (e:Empleado {nombre: "Ricardo Hernández Molina"}), (x:PerfilSocial {plataforma: "X", nombre: "x_ricardohernandezmolina"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(x);
+MATCH (e:Empleado {nombre: "Ricardo Hernández Molina"}), (spotify:PerfilSocial {plataforma: "Spotify", nombre: "spotify_ricardohernandezmolina"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(spotify);
+MATCH (e:Empleado {nombre: "Ricardo Hernández Molina"}), (chess:PerfilSocial {plataforma: "Chess", nombre: "chess_ricardohernandezmolina"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(chess);
+MATCH (e:Empleado {nombre: "Ricardo Hernández Molina"}), (periscope:PerfilSocial {plataforma: "Periscope", nombre: "periscope_ricardohernandezmolina"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(periscope);
+MATCH (e:Empleado {nombre: "Ricardo Molina Martín"}), (disqus:PerfilSocial {plataforma: "Disqus", nombre: "disqus_ricardomolinamartin"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(disqus);
+MATCH (e:Empleado {nombre: "Ricardo Molina Martín"}), (chess:PerfilSocial {plataforma: "Chess", nombre: "chess_ricardomolinamartin"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(chess);
+MATCH (e:Empleado {nombre: "Ricardo Molina Martín"}), (threads:PerfilSocial {plataforma: "Threads", nombre: "threads_ricardomolinamartin"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(threads);
+MATCH (e:Empleado {nombre: "Manuel Vázquez Gil"}), (disqus:PerfilSocial {plataforma: "Disqus", nombre: "disqus_manuelvazquezgil"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(disqus);
+MATCH (e:Empleado {nombre: "Manuel Vázquez Gil"}), (instagram:PerfilSocial {plataforma: "Instagram", nombre: "instagram_manuelvazquezgil"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(instagram);
+MATCH (e:Empleado {nombre: "Manuel Vázquez Gil"}), (ninegag:PerfilSocial {plataforma: "9gag", nombre: "ninegag_manuelvazquezgil"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(ninegag);
+MATCH (e:Empleado {nombre: "Manuel Vázquez Gil"}), (threads:PerfilSocial {plataforma: "Threads", nombre: "threads_manuelvazquezgil"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(threads);
+MATCH (e:Empleado {nombre: "Manuel Vázquez Gil"}), (chess:PerfilSocial {plataforma: "Chess", nombre: "chess_manuelvazquezgil"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(chess);
+MATCH (e:Empleado {nombre: "Manuel Vázquez Gil"}), (duolingo:PerfilSocial {plataforma: "Duolingo", nombre: "duolingo_manuelvazquezgil"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(duolingo);
+MATCH (e:Empleado {nombre: "Manuel Vázquez Gil"}), (x:PerfilSocial {plataforma: "X", nombre: "x_manuelvazquezgil"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(x);
+MATCH (e:Empleado {nombre: "Manuel Vázquez Gil"}), (youtube:PerfilSocial {plataforma: "YouTube", nombre: "youtube_manuelvazquezgil"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(youtube);
+MATCH (e:Empleado {nombre: "Manuel Vázquez Gil"}), (periscope:PerfilSocial {plataforma: "Periscope", nombre: "periscope_manuelvazquezgil"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(periscope);
+MATCH (e:Empleado {nombre: "Victoria Gil Fernández"}), (duolingo:PerfilSocial {plataforma: "Duolingo", nombre: "duolingo_victoriagilfernandez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(duolingo);
+MATCH (e:Empleado {nombre: "Victoria Gil Fernández"}), (instagram:PerfilSocial {plataforma: "Instagram", nombre: "instagram_victoriagilfernandez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(instagram);
+MATCH (e:Empleado {nombre: "Victoria Gil Fernández"}), (threads:PerfilSocial {plataforma: "Threads", nombre: "threads_victoriagilfernandez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(threads);
+MATCH (e:Empleado {nombre: "Victoria Gil Fernández"}), (gravatar:PerfilSocial {plataforma: "Gravatar", nombre: "gravatar_victoriagilfernandez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(gravatar);
+MATCH (e:Empleado {nombre: "Victoria Gil Fernández"}), (facebook:PerfilSocial {plataforma: "Facebook", nombre: "facebook_victoriagilfernandez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(facebook);
+MATCH (e:Empleado {nombre: "Victoria Gil Fernández"}), (periscope:PerfilSocial {plataforma: "Periscope", nombre: "periscope_victoriagilfernandez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(periscope);
+MATCH (e:Empleado {nombre: "Carlos Ruiz Hernández"}), (x:PerfilSocial {plataforma: "X", nombre: "x_carlosruizhernandez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(x);
+MATCH (e:Empleado {nombre: "Carlos Ruiz Hernández"}), (spotify:PerfilSocial {plataforma: "Spotify", nombre: "spotify_carlosruizhernandez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(spotify);
+MATCH (e:Empleado {nombre: "Carlos Ruiz Hernández"}), (ninegag:PerfilSocial {plataforma: "9gag", nombre: "ninegag_carlosruizhernandez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(ninegag);
+MATCH (e:Empleado {nombre: "Carlos Ruiz Hernández"}), (instagram:PerfilSocial {plataforma: "Instagram", nombre: "instagram_carlosruizhernandez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(instagram);
+MATCH (e:Empleado {nombre: "Carlos Ruiz Hernández"}), (disqus:PerfilSocial {plataforma: "Disqus", nombre: "disqus_carlosruizhernandez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(disqus);
+MATCH (e:Empleado {nombre: "Carlos Ruiz Hernández"}), (youtube:PerfilSocial {plataforma: "YouTube", nombre: "youtube_carlosruizhernandez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(youtube);
+MATCH (e:Empleado {nombre: "Carlos Ruiz Hernández"}), (linkedin:PerfilSocial {plataforma: "LinkedIn", nombre: "linkedin_carlosruizhernandez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(linkedin);
+MATCH (e:Empleado {nombre: "Carlos Ruiz Hernández"}), (duolingo:PerfilSocial {plataforma: "Duolingo", nombre: "duolingo_carlosruizhernandez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(duolingo);
+MATCH (e:Empleado {nombre: "Carlos Ruiz Hernández"}), (periscope:PerfilSocial {plataforma: "Periscope", nombre: "periscope_carlosruizhernandez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(periscope);
+MATCH (e:Empleado {nombre: "Carlos Ruiz Hernández"}), (threads:PerfilSocial {plataforma: "Threads", nombre: "threads_carlosruizhernandez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(threads);
+MATCH (e:Empleado {nombre: "Carlos Ruiz Hernández"}), (chess:PerfilSocial {plataforma: "Chess", nombre: "chess_carlosruizhernandez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(chess);
+MATCH (e:Empleado {nombre: "Carlos Ruiz Hernández"}), (gravatar:PerfilSocial {plataforma: "Gravatar", nombre: "gravatar_carlosruizhernandez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(gravatar);
+MATCH (e:Empleado {nombre: "Carlos Ruiz Hernández"}), (facebook:PerfilSocial {plataforma: "Facebook", nombre: "facebook_carlosruizhernandez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(facebook);
+MATCH (e:Empleado {nombre: "Clara Jiménez Gutiérrez"}), (linkedin:PerfilSocial {plataforma: "LinkedIn", nombre: "linkedin_clarajimenezgutierrez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(linkedin);
+MATCH (e:Empleado {nombre: "Clara Jiménez Gutiérrez"}), (threads:PerfilSocial {plataforma: "Threads", nombre: "threads_clarajimenezgutierrez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(threads);
+MATCH (e:Empleado {nombre: "Clara Jiménez Gutiérrez"}), (youtube:PerfilSocial {plataforma: "YouTube", nombre: "youtube_clarajimenezgutierrez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(youtube);
+MATCH (e:Empleado {nombre: "Clara Jiménez Gutiérrez"}), (periscope:PerfilSocial {plataforma: "Periscope", nombre: "periscope_clarajimenezgutierrez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(periscope);
+MATCH (e:Empleado {nombre: "Clara Jiménez Gutiérrez"}), (gravatar:PerfilSocial {plataforma: "Gravatar", nombre: "gravatar_clarajimenezgutierrez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(gravatar);
+MATCH (e:Empleado {nombre: "Clara Jiménez Gutiérrez"}), (instagram:PerfilSocial {plataforma: "Instagram", nombre: "instagram_clarajimenezgutierrez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(instagram);
+MATCH (e:Empleado {nombre: "Clara Jiménez Gutiérrez"}), (disqus:PerfilSocial {plataforma: "Disqus", nombre: "disqus_clarajimenezgutierrez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(disqus);
+MATCH (e:Empleado {nombre: "Clara Jiménez Gutiérrez"}), (facebook:PerfilSocial {plataforma: "Facebook", nombre: "facebook_clarajimenezgutierrez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(facebook);
+MATCH (e:Empleado {nombre: "Irene Ortiz Gutiérrez"}), (facebook:PerfilSocial {plataforma: "Facebook", nombre: "facebook_ireneortizgutierrez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(facebook);
+MATCH (e:Empleado {nombre: "Irene Ortiz Gutiérrez"}), (duolingo:PerfilSocial {plataforma: "Duolingo", nombre: "duolingo_ireneortizgutierrez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(duolingo);
+MATCH (e:Empleado {nombre: "Irene Ortiz Gutiérrez"}), (gravatar:PerfilSocial {plataforma: "Gravatar", nombre: "gravatar_ireneortizgutierrez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(gravatar);
+MATCH (e:Empleado {nombre: "Irene Ortiz Gutiérrez"}), (periscope:PerfilSocial {plataforma: "Periscope", nombre: "periscope_ireneortizgutierrez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(periscope);
+MATCH (e:Empleado {nombre: "Irene Ortiz Gutiérrez"}), (linkedin:PerfilSocial {plataforma: "LinkedIn", nombre: "linkedin_ireneortizgutierrez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(linkedin);
+MATCH (e:Empleado {nombre: "Irene Ortiz Gutiérrez"}), (chess:PerfilSocial {plataforma: "Chess", nombre: "chess_ireneortizgutierrez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(chess);
+MATCH (e:Empleado {nombre: "Irene Ortiz Gutiérrez"}), (spotify:PerfilSocial {plataforma: "Spotify", nombre: "spotify_ireneortizgutierrez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(spotify);
+MATCH (e:Empleado {nombre: "Irene Ortiz Gutiérrez"}), (x:PerfilSocial {plataforma: "X", nombre: "x_ireneortizgutierrez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(x);
+MATCH (e:Empleado {nombre: "Alejandra Torres Díaz"}), (duolingo:PerfilSocial {plataforma: "Duolingo", nombre: "duolingo_alejandratorresdiaz"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(duolingo);
+MATCH (e:Empleado {nombre: "Alejandra Torres Díaz"}), (youtube:PerfilSocial {plataforma: "YouTube", nombre: "youtube_alejandratorresdiaz"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(youtube);
+MATCH (e:Empleado {nombre: "Alejandra Torres Díaz"}), (periscope:PerfilSocial {plataforma: "Periscope", nombre: "periscope_alejandratorresdiaz"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(periscope);
+MATCH (e:Empleado {nombre: "Alejandra Torres Díaz"}), (chess:PerfilSocial {plataforma: "Chess", nombre: "chess_alejandratorresdiaz"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(chess);
+MATCH (e:Empleado {nombre: "Alejandra Torres Díaz"}), (linkedin:PerfilSocial {plataforma: "LinkedIn", nombre: "linkedin_alejandratorresdiaz"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(linkedin);
+MATCH (e:Empleado {nombre: "Alejandra Torres Díaz"}), (disqus:PerfilSocial {plataforma: "Disqus", nombre: "disqus_alejandratorresdiaz"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(disqus);
+MATCH (e:Empleado {nombre: "Miguel Martín Martín"}), (periscope:PerfilSocial {plataforma: "Periscope", nombre: "periscope_miguelmartinmartin"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(periscope);
+MATCH (e:Empleado {nombre: "Miguel Martín Martín"}), (disqus:PerfilSocial {plataforma: "Disqus", nombre: "disqus_miguelmartinmartin"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(disqus);
+MATCH (e:Empleado {nombre: "Miguel Martín Martín"}), (ninegag:PerfilSocial {plataforma: "9gag", nombre: "ninegag_miguelmartinmartin"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(ninegag);
+MATCH (e:Empleado {nombre: "Miguel Martín Martín"}), (spotify:PerfilSocial {plataforma: "Spotify", nombre: "spotify_miguelmartinmartin"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(spotify);
+MATCH (e:Empleado {nombre: "Miguel Martín Martín"}), (facebook:PerfilSocial {plataforma: "Facebook", nombre: "facebook_miguelmartinmartin"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(facebook);
+MATCH (e:Empleado {nombre: "Miguel Martín Martín"}), (gravatar:PerfilSocial {plataforma: "Gravatar", nombre: "gravatar_miguelmartinmartin"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(gravatar);
+MATCH (e:Empleado {nombre: "Miguel Martín Martín"}), (instagram:PerfilSocial {plataforma: "Instagram", nombre: "instagram_miguelmartinmartin"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(instagram);
+MATCH (e:Empleado {nombre: "Miguel Martín Martín"}), (youtube:PerfilSocial {plataforma: "YouTube", nombre: "youtube_miguelmartinmartin"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(youtube);
+MATCH (e:Empleado {nombre: "Miguel Martín Martín"}), (x:PerfilSocial {plataforma: "X", nombre: "x_miguelmartinmartin"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(x);
+MATCH (e:Empleado {nombre: "Miguel Martín Martín"}), (threads:PerfilSocial {plataforma: "Threads", nombre: "threads_miguelmartinmartin"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(threads);
+MATCH (e:Empleado {nombre: "Miguel Martín Martín"}), (duolingo:PerfilSocial {plataforma: "Duolingo", nombre: "duolingo_miguelmartinmartin"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(duolingo);
+MATCH (e:Empleado {nombre: "Miguel Martín Martín"}), (chess:PerfilSocial {plataforma: "Chess", nombre: "chess_miguelmartinmartin"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(chess);
+MATCH (e:Empleado {nombre: "Raquel Pérez Sánchez"}), (gravatar:PerfilSocial {plataforma: "Gravatar", nombre: "gravatar_raquelperezsanchez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(gravatar);
+MATCH (e:Empleado {nombre: "Raquel Pérez Sánchez"}), (chess:PerfilSocial {plataforma: "Chess", nombre: "chess_raquelperezsanchez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(chess);
+MATCH (e:Empleado {nombre: "Raquel Pérez Sánchez"}), (facebook:PerfilSocial {plataforma: "Facebook", nombre: "facebook_raquelperezsanchez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(facebook);
+MATCH (e:Empleado {nombre: "Raquel Pérez Sánchez"}), (threads:PerfilSocial {plataforma: "Threads", nombre: "threads_raquelperezsanchez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(threads);
+MATCH (e:Empleado {nombre: "Raquel Pérez Sánchez"}), (duolingo:PerfilSocial {plataforma: "Duolingo", nombre: "duolingo_raquelperezsanchez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(duolingo);
+MATCH (e:Empleado {nombre: "Raquel Pérez Sánchez"}), (x:PerfilSocial {plataforma: "X", nombre: "x_raquelperezsanchez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(x);
+MATCH (e:Empleado {nombre: "Raquel Pérez Sánchez"}), (youtube:PerfilSocial {plataforma: "YouTube", nombre: "youtube_raquelperezsanchez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(youtube);
+MATCH (e:Empleado {nombre: "Raquel Pérez Sánchez"}), (spotify:PerfilSocial {plataforma: "Spotify", nombre: "spotify_raquelperezsanchez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(spotify);
+MATCH (e:Empleado {nombre: "Raquel Pérez Sánchez"}), (disqus:PerfilSocial {plataforma: "Disqus", nombre: "disqus_raquelperezsanchez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(disqus);
+MATCH (e:Empleado {nombre: "Raquel Pérez Sánchez"}), (instagram:PerfilSocial {plataforma: "Instagram", nombre: "instagram_raquelperezsanchez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(instagram);
+MATCH (e:Empleado {nombre: "Raquel Pérez Sánchez"}), (ninegag:PerfilSocial {plataforma: "9gag", nombre: "ninegag_raquelperezsanchez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(ninegag);
+MATCH (e:Empleado {nombre: "Raquel Pérez Sánchez"}), (linkedin:PerfilSocial {plataforma: "LinkedIn", nombre: "linkedin_raquelperezsanchez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(linkedin);
+MATCH (e:Empleado {nombre: "Marcos López Torres"}), (youtube:PerfilSocial {plataforma: "YouTube", nombre: "youtube_marcoslopeztorres"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(youtube);
+MATCH (e:Empleado {nombre: "Marcos López Torres"}), (instagram:PerfilSocial {plataforma: "Instagram", nombre: "instagram_marcoslopeztorres"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(instagram);
+MATCH (e:Empleado {nombre: "Paula Torres Fernández"}), (duolingo:PerfilSocial {plataforma: "Duolingo", nombre: "duolingo_paulatorresfernandez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(duolingo);
+MATCH (e:Empleado {nombre: "Paula Torres Fernández"}), (threads:PerfilSocial {plataforma: "Threads", nombre: "threads_paulatorresfernandez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(threads);
+MATCH (e:Empleado {nombre: "Paula Torres Fernández"}), (ninegag:PerfilSocial {plataforma: "9gag", nombre: "ninegag_paulatorresfernandez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(ninegag);
+MATCH (e:Empleado {nombre: "Isabel Ramírez Smith"}), (chess:PerfilSocial {plataforma: "Chess", nombre: "chess_isabelramirezsmith"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(chess);
+MATCH (e:Empleado {nombre: "Isabel Ramírez Smith"}), (facebook:PerfilSocial {plataforma: "Facebook", nombre: "facebook_isabelramirezsmith"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(facebook);
+MATCH (e:Empleado {nombre: "Isabel Ramírez Smith"}), (linkedin:PerfilSocial {plataforma: "LinkedIn", nombre: "linkedin_isabelramirezsmith"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(linkedin);
+MATCH (e:Empleado {nombre: "Isabel Ramírez Smith"}), (ninegag:PerfilSocial {plataforma: "9gag", nombre: "ninegag_isabelramirezsmith"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(ninegag);
+MATCH (e:Empleado {nombre: "Isabel Ramírez Smith"}), (duolingo:PerfilSocial {plataforma: "Duolingo", nombre: "duolingo_isabelramirezsmith"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(duolingo);
+MATCH (e:Empleado {nombre: "Isabel Ramírez Smith"}), (instagram:PerfilSocial {plataforma: "Instagram", nombre: "instagram_isabelramirezsmith"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(instagram);
+MATCH (e:Empleado {nombre: "Isabel Ramírez Smith"}), (spotify:PerfilSocial {plataforma: "Spotify", nombre: "spotify_isabelramirezsmith"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(spotify);
+MATCH (e:Empleado {nombre: "Isabel Ramírez Smith"}), (gravatar:PerfilSocial {plataforma: "Gravatar", nombre: "gravatar_isabelramirezsmith"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(gravatar);
+MATCH (e:Empleado {nombre: "Raúl Fernández Jiménez"}), (duolingo:PerfilSocial {plataforma: "Duolingo", nombre: "duolingo_raulfernandezjimenez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(duolingo);
+MATCH (e:Empleado {nombre: "Raúl Fernández Jiménez"}), (x:PerfilSocial {plataforma: "X", nombre: "x_raulfernandezjimenez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(x);
+MATCH (e:Empleado {nombre: "Raúl Fernández Jiménez"}), (threads:PerfilSocial {plataforma: "Threads", nombre: "threads_raulfernandezjimenez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(threads);
+MATCH (e:Empleado {nombre: "Raúl Fernández Jiménez"}), (linkedin:PerfilSocial {plataforma: "LinkedIn", nombre: "linkedin_raulfernandezjimenez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(linkedin);
+MATCH (e:Empleado {nombre: "Raúl Fernández Jiménez"}), (periscope:PerfilSocial {plataforma: "Periscope", nombre: "periscope_raulfernandezjimenez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(periscope);
+MATCH (e:Empleado {nombre: "Patricia Gil Suárez"}), (periscope:PerfilSocial {plataforma: "Periscope", nombre: "periscope_patriciagilsuarez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(periscope);
+MATCH (e:Empleado {nombre: "Patricia Gil Suárez"}), (chess:PerfilSocial {plataforma: "Chess", nombre: "chess_patriciagilsuarez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(chess);
+MATCH (e:Empleado {nombre: "Patricia Gil Suárez"}), (disqus:PerfilSocial {plataforma: "Disqus", nombre: "disqus_patriciagilsuarez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(disqus);
+MATCH (e:Empleado {nombre: "Patricia Gil Suárez"}), (x:PerfilSocial {plataforma: "X", nombre: "x_patriciagilsuarez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(x);
+MATCH (e:Empleado {nombre: "Patricia Gil Suárez"}), (spotify:PerfilSocial {plataforma: "Spotify", nombre: "spotify_patriciagilsuarez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(spotify);
+MATCH (e:Empleado {nombre: "Patricia Gil Suárez"}), (instagram:PerfilSocial {plataforma: "Instagram", nombre: "instagram_patriciagilsuarez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(instagram);
+MATCH (e:Empleado {nombre: "Carlos Ramírez Martínez"}), (x:PerfilSocial {plataforma: "X", nombre: "x_carlosramirezmartinez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(x);
+MATCH (e:Empleado {nombre: "Carlos Ramírez Martínez"}), (gravatar:PerfilSocial {plataforma: "Gravatar", nombre: "gravatar_carlosramirezmartinez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(gravatar);
+MATCH (e:Empleado {nombre: "Carlos Ramírez Martínez"}), (disqus:PerfilSocial {plataforma: "Disqus", nombre: "disqus_carlosramirezmartinez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(disqus);
+MATCH (e:Empleado {nombre: "Carlos Ramírez Martínez"}), (instagram:PerfilSocial {plataforma: "Instagram", nombre: "instagram_carlosramirezmartinez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(instagram);
+MATCH (e:Empleado {nombre: "Carlos Ramírez Martínez"}), (spotify:PerfilSocial {plataforma: "Spotify", nombre: "spotify_carlosramirezmartinez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(spotify);
+MATCH (e:Empleado {nombre: "Carlos Ramírez Martínez"}), (duolingo:PerfilSocial {plataforma: "Duolingo", nombre: "duolingo_carlosramirezmartinez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(duolingo);
+MATCH (e:Empleado {nombre: "Carlos Ramírez Martínez"}), (chess:PerfilSocial {plataforma: "Chess", nombre: "chess_carlosramirezmartinez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(chess);
+MATCH (e:Empleado {nombre: "Carlos Ramírez Martínez"}), (periscope:PerfilSocial {plataforma: "Periscope", nombre: "periscope_carlosramirezmartinez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(periscope);
+MATCH (e:Empleado {nombre: "Carlos Ramírez Martínez"}), (linkedin:PerfilSocial {plataforma: "LinkedIn", nombre: "linkedin_carlosramirezmartinez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(linkedin);
+MATCH (e:Empleado {nombre: "Carlos Ramírez Martínez"}), (ninegag:PerfilSocial {plataforma: "9gag", nombre: "ninegag_carlosramirezmartinez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(ninegag);
+MATCH (e:Empleado {nombre: "Carlos Ramírez Martínez"}), (youtube:PerfilSocial {plataforma: "YouTube", nombre: "youtube_carlosramirezmartinez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(youtube);
+MATCH (e:Empleado {nombre: "Carlos Ramírez Martínez"}), (threads:PerfilSocial {plataforma: "Threads", nombre: "threads_carlosramirezmartinez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(threads);
+MATCH (e:Empleado {nombre: "Germán Sánchez Vázquez"}), (chess:PerfilSocial {plataforma: "Chess", nombre: "chess_germansanchezvazquez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(chess);
+MATCH (e:Empleado {nombre: "Germán Sánchez Vázquez"}), (facebook:PerfilSocial {plataforma: "Facebook", nombre: "facebook_germansanchezvazquez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(facebook);
+MATCH (e:Empleado {nombre: "Germán Sánchez Vázquez"}), (linkedin:PerfilSocial {plataforma: "LinkedIn", nombre: "linkedin_germansanchezvazquez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(linkedin);
+MATCH (e:Empleado {nombre: "Germán Sánchez Vázquez"}), (spotify:PerfilSocial {plataforma: "Spotify", nombre: "spotify_germansanchezvazquez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(spotify);
+MATCH (e:Empleado {nombre: "Germán Sánchez Vázquez"}), (x:PerfilSocial {plataforma: "X", nombre: "x_germansanchezvazquez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(x);
+MATCH (e:Empleado {nombre: "Germán Sánchez Vázquez"}), (disqus:PerfilSocial {plataforma: "Disqus", nombre: "disqus_germansanchezvazquez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(disqus);
+MATCH (e:Empleado {nombre: "Germán Sánchez Vázquez"}), (instagram:PerfilSocial {plataforma: "Instagram", nombre: "instagram_germansanchezvazquez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(instagram);
+MATCH (e:Empleado {nombre: "Germán Sánchez Vázquez"}), (ninegag:PerfilSocial {plataforma: "9gag", nombre: "ninegag_germansanchezvazquez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(ninegag);
+MATCH (e:Empleado {nombre: "Germán Sánchez Vázquez"}), (gravatar:PerfilSocial {plataforma: "Gravatar", nombre: "gravatar_germansanchezvazquez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(gravatar);
+MATCH (e:Empleado {nombre: "Germán Sánchez Vázquez"}), (youtube:PerfilSocial {plataforma: "YouTube", nombre: "youtube_germansanchezvazquez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(youtube);
+MATCH (e:Empleado {nombre: "Germán Sánchez Vázquez"}), (duolingo:PerfilSocial {plataforma: "Duolingo", nombre: "duolingo_germansanchezvazquez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(duolingo);
+MATCH (e:Empleado {nombre: "Germán Sánchez Vázquez"}), (periscope:PerfilSocial {plataforma: "Periscope", nombre: "periscope_germansanchezvazquez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(periscope);
+MATCH (e:Empleado {nombre: "Germán Sánchez Vázquez"}), (threads:PerfilSocial {plataforma: "Threads", nombre: "threads_germansanchezvazquez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(threads);
+MATCH (e:Empleado {nombre: "Valeria Suárez Smith"}), (threads:PerfilSocial {plataforma: "Threads", nombre: "threads_valeriasuarezsmith"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(threads);
+MATCH (e:Empleado {nombre: "Valeria Suárez Smith"}), (facebook:PerfilSocial {plataforma: "Facebook", nombre: "facebook_valeriasuarezsmith"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(facebook);
+MATCH (e:Empleado {nombre: "Valeria Suárez Smith"}), (gravatar:PerfilSocial {plataforma: "Gravatar", nombre: "gravatar_valeriasuarezsmith"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(gravatar);
+MATCH (e:Empleado {nombre: "Valeria Suárez Smith"}), (chess:PerfilSocial {plataforma: "Chess", nombre: "chess_valeriasuarezsmith"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(chess);
+MATCH (e:Empleado {nombre: "Valeria Suárez Smith"}), (youtube:PerfilSocial {plataforma: "YouTube", nombre: "youtube_valeriasuarezsmith"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(youtube);
+MATCH (e:Empleado {nombre: "Javier Ramírez Navarro"}), (linkedin:PerfilSocial {plataforma: "LinkedIn", nombre: "linkedin_javierramireznavarro"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(linkedin);
+MATCH (e:Empleado {nombre: "Javier Ramírez Navarro"}), (chess:PerfilSocial {plataforma: "Chess", nombre: "chess_javierramireznavarro"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(chess);
+MATCH (e:Empleado {nombre: "Javier Ramírez Navarro"}), (ninegag:PerfilSocial {plataforma: "9gag", nombre: "ninegag_javierramireznavarro"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(ninegag);
+MATCH (e:Empleado {nombre: "Javier Ramírez Navarro"}), (periscope:PerfilSocial {plataforma: "Periscope", nombre: "periscope_javierramireznavarro"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(periscope);
+MATCH (e:Empleado {nombre: "Javier Ramírez Navarro"}), (youtube:PerfilSocial {plataforma: "YouTube", nombre: "youtube_javierramireznavarro"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(youtube);
+MATCH (e:Empleado {nombre: "Javier Ramírez Navarro"}), (instagram:PerfilSocial {plataforma: "Instagram", nombre: "instagram_javierramireznavarro"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(instagram);
+MATCH (e:Empleado {nombre: "Javier Ramírez Navarro"}), (duolingo:PerfilSocial {plataforma: "Duolingo", nombre: "duolingo_javierramireznavarro"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(duolingo);
+MATCH (e:Empleado {nombre: "Javier Ramírez Navarro"}), (disqus:PerfilSocial {plataforma: "Disqus", nombre: "disqus_javierramireznavarro"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(disqus);
+MATCH (e:Empleado {nombre: "Javier Ramírez Navarro"}), (facebook:PerfilSocial {plataforma: "Facebook", nombre: "facebook_javierramireznavarro"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(facebook);
+MATCH (e:Empleado {nombre: "Javier Ramírez Navarro"}), (threads:PerfilSocial {plataforma: "Threads", nombre: "threads_javierramireznavarro"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(threads);
+MATCH (e:Empleado {nombre: "Javier Ramírez Navarro"}), (gravatar:PerfilSocial {plataforma: "Gravatar", nombre: "gravatar_javierramireznavarro"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(gravatar);
+MATCH (e:Empleado {nombre: "Javier Ramírez Navarro"}), (spotify:PerfilSocial {plataforma: "Spotify", nombre: "spotify_javierramireznavarro"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(spotify);
+MATCH (e:Empleado {nombre: "Javier Ramírez Navarro"}), (x:PerfilSocial {plataforma: "X", nombre: "x_javierramireznavarro"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(x);
+MATCH (e:Empleado {nombre: "Esteban Flores Álvarez"}), (instagram:PerfilSocial {plataforma: "Instagram", nombre: "instagram_estebanfloresalvarez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(instagram);
+MATCH (e:Empleado {nombre: "Esteban Flores Álvarez"}), (x:PerfilSocial {plataforma: "X", nombre: "x_estebanfloresalvarez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(x);
+MATCH (e:Empleado {nombre: "Esteban Flores Álvarez"}), (threads:PerfilSocial {plataforma: "Threads", nombre: "threads_estebanfloresalvarez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(threads);
+MATCH (e:Empleado {nombre: "Esteban Flores Álvarez"}), (facebook:PerfilSocial {plataforma: "Facebook", nombre: "facebook_estebanfloresalvarez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(facebook);
+MATCH (e:Empleado {nombre: "Esteban Flores Álvarez"}), (periscope:PerfilSocial {plataforma: "Periscope", nombre: "periscope_estebanfloresalvarez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(periscope);
+MATCH (e:Empleado {nombre: "Esteban Flores Álvarez"}), (duolingo:PerfilSocial {plataforma: "Duolingo", nombre: "duolingo_estebanfloresalvarez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(duolingo);
+MATCH (e:Empleado {nombre: "Esteban Flores Álvarez"}), (youtube:PerfilSocial {plataforma: "YouTube", nombre: "youtube_estebanfloresalvarez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(youtube);
+MATCH (e:Empleado {nombre: "Esteban Flores Álvarez"}), (disqus:PerfilSocial {plataforma: "Disqus", nombre: "disqus_estebanfloresalvarez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(disqus);
+MATCH (e:Empleado {nombre: "Esteban Flores Álvarez"}), (ninegag:PerfilSocial {plataforma: "9gag", nombre: "ninegag_estebanfloresalvarez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(ninegag);
+MATCH (e:Empleado {nombre: "Esteban Flores Álvarez"}), (gravatar:PerfilSocial {plataforma: "Gravatar", nombre: "gravatar_estebanfloresalvarez"})
+MERGE (e)-[:TIENE_PERFIL_EN]->(gravatar);

@@ -1,0 +1,10 @@
+CREATE (tecnologia:Departamento {nombre: "TECNOLOGÍA"}),
+(direccion:Departamento {nombre: "DIRECCIÓN"}),
+(desarrollo_software:Departamento {nombre: "DESARROLLO_SOFTWARE"}),
+(contabilidad:Departamento {nombre: "CONTABILIDAD"}),
+(estrategia:Departamento {nombre: "ESTRATEGIA"}),
+(gestion_operativa:Departamento {nombre: "GESTIÓN_OPERATIVA"}),
+(analisis_datos:Departamento {nombre: "ANÁLISIS_DATOS"}),
+(juridico:Departamento {nombre: "JURÍDICO"}),
+(redes_y_conectividad:Departamento {nombre: "REDES_Y_CONECTIVIDAD"}),
+(publicidad:Departamento {nombre: "PUBLICIDAD"});

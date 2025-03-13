@@ -1,0 +1,140 @@
+MATCH (e:Empleado {nombre: "Teresa Serrano Fernández"}), (d:Departamento {nombre: "DESARROLLO_SOFTWARE"})
+MERGE (e)-[:TRABAJA_EN]->(d);
+MATCH (e:Empleado {nombre: "Andrea Gómez Castro"}), (d:Departamento {nombre: "DESARROLLO_SOFTWARE"})
+MERGE (e)-[:TRABAJA_EN]->(d);
+MATCH (e:Empleado {nombre: "Ricardo Álvarez Serrano"}), (d:Departamento {nombre: "DESARROLLO_SOFTWARE"})
+MERGE (e)-[:TRABAJA_EN]->(d);
+MATCH (e:Empleado {nombre: "Clara Torres Martínez"}), (d:Departamento {nombre: "DESARROLLO_SOFTWARE"})
+MERGE (e)-[:TRABAJA_EN]->(d);
+MATCH (e:Empleado {nombre: "Juan Molina Smith"}), (d:Departamento {nombre: "DESARROLLO_SOFTWARE"})
+MERGE (e)-[:TRABAJA_EN]->(d);
+MATCH (e:Empleado {nombre: "Esteban Ruiz Rodríguez"}), (d:Departamento {nombre: "DESARROLLO_SOFTWARE"})
+MERGE (e)-[:TRABAJA_EN]->(d);
+MATCH (e:Empleado {nombre: "Laura Ortiz Smith"}), (d:Departamento {nombre: "DESARROLLO_SOFTWARE"})
+MERGE (e)-[:TRABAJA_EN]->(d);
+MATCH (e:Empleado {nombre: "Fernando Serrano Gil"}), (d:Departamento {nombre: "DESARROLLO_SOFTWARE"})
+MERGE (e)-[:TRABAJA_EN]->(d);
+MATCH (e:Empleado {nombre: "Valeria García Ortiz"}), (d:Departamento {nombre: "DESARROLLO_SOFTWARE"})
+MERGE (e)-[:TRABAJA_EN]->(d);
+MATCH (e:Empleado {nombre: "Marta Ramos Suárez"}), (d:Departamento {nombre: "DESARROLLO_SOFTWARE"})
+MERGE (e)-[:TRABAJA_EN]->(d);
+MATCH (e:Empleado {nombre: "Ricardo Suárez Jiménez"}), (d:Departamento {nombre: "DESARROLLO_SOFTWARE"})
+MERGE (e)-[:TRABAJA_EN]->(d);
+MATCH (e:Empleado {nombre: "Estefanía Sánchez Jiménez"}), (d:Departamento {nombre: "DESARROLLO_SOFTWARE"})
+MERGE (e)-[:TRABAJA_EN]->(d);
+MATCH (e:Empleado {nombre: "Sergio Pérez Ramos"}), (d:Departamento {nombre: "DESARROLLO_SOFTWARE"})
+MERGE (e)-[:TRABAJA_EN]->(d);
+MATCH (e:Empleado {nombre: "Teresa Hernández Suárez"}), (d:Departamento {nombre: "DESARROLLO_SOFTWARE"})
+MERGE (e)-[:TRABAJA_EN]->(d);
+MATCH (e:Empleado {nombre: "Irene Sánchez Torres"}), (d:Departamento {nombre: "DESARROLLO_SOFTWARE"})
+MERGE (e)-[:TRABAJA_EN]->(d);
+MATCH (e:Empleado {nombre: "Silvia Molina Hernández"}), (d:Departamento {nombre: "DESARROLLO_SOFTWARE"})
+MERGE (e)-[:TRABAJA_EN]->(d);
+MATCH (e:Empleado {nombre: "Julia Sánchez Gómez"}), (d:Departamento {nombre: "DESARROLLO_SOFTWARE"})
+MERGE (e)-[:TRABAJA_EN]->(d);
+MATCH (e:Empleado {nombre: "Laura Sánchez Ramos"}), (d:Departamento {nombre: "TECNOLOGÍA"})
+MERGE (e)-[:TRABAJA_EN]->(d);
+MATCH (e:Empleado {nombre: "Carmen Ramírez Suárez"}), (d:Departamento {nombre: "TECNOLOGÍA"})
+MERGE (e)-[:TRABAJA_EN]->(d);
+MATCH (e:Empleado {nombre: "Diego Jiménez Serrano"}), (d:Departamento {nombre: "TECNOLOGÍA"})
+MERGE (e)-[:TRABAJA_EN]->(d);
+MATCH (e:Empleado {nombre: "Raúl Ortiz Martínez"}), (d:Departamento {nombre: "TECNOLOGÍA"})
+MERGE (e)-[:TRABAJA_EN]->(d);
+MATCH (e:Empleado {nombre: "Luis Vázquez Castro"}), (d:Departamento {nombre: "TECNOLOGÍA"})
+MERGE (e)-[:TRABAJA_EN]->(d);
+MATCH (e:Empleado {nombre: "Luis Ramos Ruiz"}), (d:Departamento {nombre: "TECNOLOGÍA"})
+MERGE (e)-[:TRABAJA_EN]->(d);
+MATCH (e:Empleado {nombre: "Diego Navarro Gil"}), (d:Departamento {nombre: "TECNOLOGÍA"})
+MERGE (e)-[:TRABAJA_EN]->(d);
+MATCH (e:Empleado {nombre: "Alejandra Hernández Molina"}), (d:Departamento {nombre: "TECNOLOGÍA"})
+MERGE (e)-[:TRABAJA_EN]->(d);
+MATCH (e:Empleado {nombre: "Raúl Flores Romero"}), (d:Departamento {nombre: "TECNOLOGÍA"})
+MERGE (e)-[:TRABAJA_EN]->(d);
+MATCH (e:Empleado {nombre: "Valeria Álvarez Martín"}), (d:Departamento {nombre: "TECNOLOGÍA"})
+MERGE (e)-[:TRABAJA_EN]->(d);
+MATCH (e:Empleado {nombre: "Javier Sánchez Gutiérrez"}), (d:Departamento {nombre: "DIRECCIÓN"})
+MERGE (e)-[:TRABAJA_EN]->(d);
+MATCH (e:Empleado {nombre: "Ricardo Vázquez Martín"}), (d:Departamento {nombre: "DIRECCIÓN"})
+MERGE (e)-[:TRABAJA_EN]->(d);
+MATCH (e:Empleado {nombre: "Carlos Ortiz Jiménez"}), (d:Departamento {nombre: "DIRECCIÓN"})
+MERGE (e)-[:TRABAJA_EN]->(d);
+MATCH (e:Empleado {nombre: "Antonio García Díaz"}), (d:Departamento {nombre: "CONTABILIDAD"})
+MERGE (e)-[:TRABAJA_EN]->(d);
+MATCH (e:Empleado {nombre: "Cristina Castro Gutiérrez"}), (d:Departamento {nombre: "CONTABILIDAD"})
+MERGE (e)-[:TRABAJA_EN]->(d);
+MATCH (e:Empleado {nombre: "Clara Flores Ruiz"}), (d:Departamento {nombre: "CONTABILIDAD"})
+MERGE (e)-[:TRABAJA_EN]->(d);
+MATCH (e:Empleado {nombre: "Manuel García Castro"}), (d:Departamento {nombre: "CONTABILIDAD"})
+MERGE (e)-[:TRABAJA_EN]->(d);
+MATCH (e:Empleado {nombre: "Estefanía Jiménez Gutiérrez"}), (d:Departamento {nombre: "CONTABILIDAD"})
+MERGE (e)-[:TRABAJA_EN]->(d);
+MATCH (e:Empleado {nombre: "Vicente López Vázquez"}), (d:Departamento {nombre: "CONTABILIDAD"})
+MERGE (e)-[:TRABAJA_EN]->(d);
+MATCH (e:Empleado {nombre: "Estefanía Serrano Gutiérrez"}), (d:Departamento {nombre: "CONTABILIDAD"})
+MERGE (e)-[:TRABAJA_EN]->(d);
+MATCH (e:Empleado {nombre: "Javier Flores Gil"}), (d:Departamento {nombre: "ESTRATEGIA"})
+MERGE (e)-[:TRABAJA_EN]->(d);
+MATCH (e:Empleado {nombre: "Carmen Ramírez Martín"}), (d:Departamento {nombre: "ESTRATEGIA"})
+MERGE (e)-[:TRABAJA_EN]->(d);
+MATCH (e:Empleado {nombre: "Carlos Ramírez Hernández"}), (d:Departamento {nombre: "ESTRATEGIA"})
+MERGE (e)-[:TRABAJA_EN]->(d);
+MATCH (e:Empleado {nombre: "Juan Serrano Ruiz"}), (d:Departamento {nombre: "ESTRATEGIA"})
+MERGE (e)-[:TRABAJA_EN]->(d);
+MATCH (e:Empleado {nombre: "Clara Ramos Jiménez"}), (d:Departamento {nombre: "ESTRATEGIA"})
+MERGE (e)-[:TRABAJA_EN]->(d);
+MATCH (e:Empleado {nombre: "Diego Rodríguez Castro"}), (d:Departamento {nombre: "ESTRATEGIA"})
+MERGE (e)-[:TRABAJA_EN]->(d);
+MATCH (e:Empleado {nombre: "Paula López García"}), (d:Departamento {nombre: "ESTRATEGIA"})
+MERGE (e)-[:TRABAJA_EN]->(d);
+MATCH (e:Empleado {nombre: "Cristina Rodríguez Vázquez"}), (d:Departamento {nombre: "GESTIÓN_OPERATIVA"})
+MERGE (e)-[:TRABAJA_EN]->(d);
+MATCH (e:Empleado {nombre: "Germán Vázquez Moreno"}), (d:Departamento {nombre: "GESTIÓN_OPERATIVA"})
+MERGE (e)-[:TRABAJA_EN]->(d);
+MATCH (e:Empleado {nombre: "Juan Ortiz Gómez"}), (d:Departamento {nombre: "GESTIÓN_OPERATIVA"})
+MERGE (e)-[:TRABAJA_EN]->(d);
+MATCH (e:Empleado {nombre: "Andrea García Flores"}), (d:Departamento {nombre: "GESTIÓN_OPERATIVA"})
+MERGE (e)-[:TRABAJA_EN]->(d);
+MATCH (e:Empleado {nombre: "Ricardo Hernández Molina"}), (d:Departamento {nombre: "GESTIÓN_OPERATIVA"})
+MERGE (e)-[:TRABAJA_EN]->(d);
+MATCH (e:Empleado {nombre: "Ricardo Molina Martín"}), (d:Departamento {nombre: "GESTIÓN_OPERATIVA"})
+MERGE (e)-[:TRABAJA_EN]->(d);
+MATCH (e:Empleado {nombre: "Manuel Vázquez Gil"}), (d:Departamento {nombre: "GESTIÓN_OPERATIVA"})
+MERGE (e)-[:TRABAJA_EN]->(d);
+MATCH (e:Empleado {nombre: "Victoria Gil Fernández"}), (d:Departamento {nombre: "GESTIÓN_OPERATIVA"})
+MERGE (e)-[:TRABAJA_EN]->(d);
+MATCH (e:Empleado {nombre: "Patricia Ramírez Ortiz"}), (d:Departamento {nombre: "GESTIÓN_OPERATIVA"})
+MERGE (e)-[:TRABAJA_EN]->(d);
+MATCH (e:Empleado {nombre: "Carlos Ruiz Hernández"}), (d:Departamento {nombre: "GESTIÓN_OPERATIVA"})
+MERGE (e)-[:TRABAJA_EN]->(d);
+MATCH (e:Empleado {nombre: "Clara Jiménez Gutiérrez"}), (d:Departamento {nombre: "ANÁLISIS_DATOS"})
+MERGE (e)-[:TRABAJA_EN]->(d);
+MATCH (e:Empleado {nombre: "Irene Ortiz Gutiérrez"}), (d:Departamento {nombre: "ANÁLISIS_DATOS"})
+MERGE (e)-[:TRABAJA_EN]->(d);
+MATCH (e:Empleado {nombre: "Alejandra Torres Díaz"}), (d:Departamento {nombre: "ANÁLISIS_DATOS"})
+MERGE (e)-[:TRABAJA_EN]->(d);
+MATCH (e:Empleado {nombre: "Miguel Martín Martín"}), (d:Departamento {nombre: "ANÁLISIS_DATOS"})
+MERGE (e)-[:TRABAJA_EN]->(d);
+MATCH (e:Empleado {nombre: "Raquel Pérez Sánchez"}), (d:Departamento {nombre: "ANÁLISIS_DATOS"})
+MERGE (e)-[:TRABAJA_EN]->(d);
+MATCH (e:Empleado {nombre: "Marcos López Torres"}), (d:Departamento {nombre: "JURÍDICO"})
+MERGE (e)-[:TRABAJA_EN]->(d);
+MATCH (e:Empleado {nombre: "Paula Torres Fernández"}), (d:Departamento {nombre: "JURÍDICO"})
+MERGE (e)-[:TRABAJA_EN]->(d);
+MATCH (e:Empleado {nombre: "Victoria Smith Molina"}), (d:Departamento {nombre: "JURÍDICO"})
+MERGE (e)-[:TRABAJA_EN]->(d);
+MATCH (e:Empleado {nombre: "Isabel Ramírez Smith"}), (d:Departamento {nombre: "REDES_Y_CONECTIVIDAD"})
+MERGE (e)-[:TRABAJA_EN]->(d);
+MATCH (e:Empleado {nombre: "Raúl Fernández Jiménez"}), (d:Departamento {nombre: "REDES_Y_CONECTIVIDAD"})
+MERGE (e)-[:TRABAJA_EN]->(d);
+MATCH (e:Empleado {nombre: "Patricia Gil Suárez"}), (d:Departamento {nombre: "REDES_Y_CONECTIVIDAD"})
+MERGE (e)-[:TRABAJA_EN]->(d);
+MATCH (e:Empleado {nombre: "Carlos Ramírez Martínez"}), (d:Departamento {nombre: "PUBLICIDAD"})
+MERGE (e)-[:TRABAJA_EN]->(d);
+MATCH (e:Empleado {nombre: "Germán Sánchez Vázquez"}), (d:Departamento {nombre: "PUBLICIDAD"})
+MERGE (e)-[:TRABAJA_EN]->(d);
+MATCH (e:Empleado {nombre: "Valeria Suárez Smith"}), (d:Departamento {nombre: "PUBLICIDAD"})
+MERGE (e)-[:TRABAJA_EN]->(d);
+MATCH (e:Empleado {nombre: "Javier Ramírez Navarro"}), (d:Departamento {nombre: "PUBLICIDAD"})
+MERGE (e)-[:TRABAJA_EN]->(d);
+MATCH (e:Empleado {nombre: "Esteban Flores Álvarez"}), (d:Departamento {nombre: "PUBLICIDAD"})
+MERGE (e)-[:TRABAJA_EN]->(d);

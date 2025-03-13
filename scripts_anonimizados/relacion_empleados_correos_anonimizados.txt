@@ -1,0 +1,486 @@
+MATCH (e:Empleado {nombre: "Juan Ortiz Gómez"}), (c:Correo {nombre: "correo_juanortizgomez1"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Juan Ortiz Gómez"}), (c:Correo {nombre: "correo_juanortizgomez2"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Juan Ortiz Gómez"}), (c:Correo {nombre: "correo_juanortizgomez3"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Juan Ortiz Gómez"}), (c:Correo {nombre: "correo_juanortizgomez4"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Juan Ortiz Gómez"}), (c:Correo {nombre: "correo_juanortizgomez5"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Carlos Ramírez Martínez"}), (c:Correo {nombre: "correo_carlosramirezmartinez1"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Carlos Ramírez Martínez"}), (c:Correo {nombre: "correo_carlosramirezmartinez2"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Carlos Ramírez Martínez"}), (c:Correo {nombre: "correo_carlosramirezmartinez3"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Carlos Ramírez Martínez"}), (c:Correo {nombre: "correo_carlosramirezmartinez4"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Carlos Ramírez Martínez"}), (c:Correo {nombre: "correo_carlosramirezmartinez5"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Juan Molina Smith"}), (c:Correo {nombre: "correo_juanmolinasmith1"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Juan Molina Smith"}), (c:Correo {nombre: "correo_juanmolinasmith2"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Juan Molina Smith"}), (c:Correo {nombre: "correo_juanmolinasmith3"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Juan Molina Smith"}), (c:Correo {nombre: "correo_juanmolinasmith4"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Juan Molina Smith"}), (c:Correo {nombre: "correo_juanmolinasmith5"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Cristina Rodríguez Vázquez"}), (c:Correo {nombre: "correo_cristinarodriguezvazquez1"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Cristina Rodríguez Vázquez"}), (c:Correo {nombre: "correo_cristinarodriguezvazquez2"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Cristina Rodríguez Vázquez"}), (c:Correo {nombre: "correo_cristinarodriguezvazquez3"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Cristina Castro Gutiérrez"}), (c:Correo {nombre: "correo_cristinacastrogutierrez1"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Cristina Castro Gutiérrez"}), (c:Correo {nombre: "correo_cristinacastrogutierrez2"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Cristina Castro Gutiérrez"}), (c:Correo {nombre: "correo_cristinacastrogutierrez3"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Juan Serrano Ruiz"}), (c:Correo {nombre: "correo_juanserranoruiz1"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Juan Serrano Ruiz"}), (c:Correo {nombre: "correo_juanserranoruiz2"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Juan Serrano Ruiz"}), (c:Correo {nombre: "correo_juanserranoruiz3"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Victoria Gil Fernández"}), (c:Correo {nombre: "correo_victoriagilfernandez1"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Victoria Gil Fernández"}), (c:Correo {nombre: "correo_victoriagilfernandez2"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Esteban Ruiz Rodríguez"}), (c:Correo {nombre: "correo_estebanruizrodriguez1"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Esteban Ruiz Rodríguez"}), (c:Correo {nombre: "correo_estebanruizrodriguez2"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Esteban Ruiz Rodríguez"}), (c:Correo {nombre: "correo_estebanruizrodriguez3"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Estefanía Serrano Gutiérrez"}), (c:Correo {nombre: "correo_estefaniaserranogutierrez1"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Estefanía Serrano Gutiérrez"}), (c:Correo {nombre: "correo_estefaniaserranogutierrez2"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Estefanía Serrano Gutiérrez"}), (c:Correo {nombre: "correo_estefaniaserranogutierrez3"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Estefanía Serrano Gutiérrez"}), (c:Correo {nombre: "correo_estefaniaserranogutierrez4"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Estefanía Serrano Gutiérrez"}), (c:Correo {nombre: "correo_estefaniaserranogutierrez5"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Carmen Ramírez Martín"}), (c:Correo {nombre: "correo_carmenramirezmartin1"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Carmen Ramírez Martín"}), (c:Correo {nombre: "correo_carmenramirezmartin2"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Carmen Ramírez Martín"}), (c:Correo {nombre: "correo_carmenramirezmartin3"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Carmen Ramírez Martín"}), (c:Correo {nombre: "correo_carmenramirezmartin4"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Carmen Ramírez Martín"}), (c:Correo {nombre: "correo_carmenramirezmartin5"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Ricardo Vázquez Martín"}), (c:Correo {nombre: "correo_ricardovazquezmartin1"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Ricardo Vázquez Martín"}), (c:Correo {nombre: "correo_ricardovazquezmartin2"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Ricardo Vázquez Martín"}), (c:Correo {nombre: "correo_ricardovazquezmartin3"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Ricardo Vázquez Martín"}), (c:Correo {nombre: "correo_ricardovazquezmartin4"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Ricardo Vázquez Martín"}), (c:Correo {nombre: "correo_ricardovazquezmartin5"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Paula López García"}), (c:Correo {nombre: "correo_paulalopezgarcia1"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Paula López García"}), (c:Correo {nombre: "correo_paulalopezgarcia2"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Paula López García"}), (c:Correo {nombre: "correo_paulalopezgarcia3"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Laura Ortiz Smith"}), (c:Correo {nombre: "correo_lauraortizsmith1"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Laura Ortiz Smith"}), (c:Correo {nombre: "correo_lauraortizsmith2"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Andrea García Flores"}), (c:Correo {nombre: "correo_andreagarciaflores1"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Andrea García Flores"}), (c:Correo {nombre: "correo_andreagarciaflores2"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Andrea García Flores"}), (c:Correo {nombre: "correo_andreagarciaflores3"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Esteban Flores Álvarez"}), (c:Correo {nombre: "correo_estebanfloresalvarez1"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Esteban Flores Álvarez"}), (c:Correo {nombre: "correo_estebanfloresalvarez2"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Esteban Flores Álvarez"}), (c:Correo {nombre: "correo_estebanfloresalvarez3"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Esteban Flores Álvarez"}), (c:Correo {nombre: "correo_estebanfloresalvarez4"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Esteban Flores Álvarez"}), (c:Correo {nombre: "correo_estebanfloresalvarez5"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Fernando Serrano Gil"}), (c:Correo {nombre: "correo_fernandoserranogil1"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Fernando Serrano Gil"}), (c:Correo {nombre: "correo_fernandoserranogil2"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Valeria Álvarez Martín"}), (c:Correo {nombre: "correo_valeriaalvarezmartin1"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Valeria Álvarez Martín"}), (c:Correo {nombre: "correo_valeriaalvarezmartin2"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Valeria Álvarez Martín"}), (c:Correo {nombre: "correo_valeriaalvarezmartin3"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Valeria Álvarez Martín"}), (c:Correo {nombre: "correo_valeriaalvarezmartin4"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Valeria Álvarez Martín"}), (c:Correo {nombre: "correo_valeriaalvarezmartin5"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Paula Torres Fernández"}), (c:Correo {nombre: "correo_paulatorresfernandez1"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Paula Torres Fernández"}), (c:Correo {nombre: "correo_paulatorresfernandez2"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Paula Torres Fernández"}), (c:Correo {nombre: "correo_paulatorresfernandez3"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Paula Torres Fernández"}), (c:Correo {nombre: "correo_paulatorresfernandez4"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Paula Torres Fernández"}), (c:Correo {nombre: "correo_paulatorresfernandez5"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Irene Sánchez Torres"}), (c:Correo {nombre: "correo_irenesancheztorres1"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Irene Sánchez Torres"}), (c:Correo {nombre: "correo_irenesancheztorres2"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Clara Flores Ruiz"}), (c:Correo {nombre: "correo_clarafloresruiz1"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Clara Flores Ruiz"}), (c:Correo {nombre: "correo_clarafloresruiz2"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Germán Sánchez Vázquez"}), (c:Correo {nombre: "correo_germansanchezvazquez1"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Germán Sánchez Vázquez"}), (c:Correo {nombre: "correo_germansanchezvazquez2"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Raúl Fernández Jiménez"}), (c:Correo {nombre: "correo_raulfernandezjimenez1"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Raúl Fernández Jiménez"}), (c:Correo {nombre: "correo_raulfernandezjimenez2"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Raúl Fernández Jiménez"}), (c:Correo {nombre: "correo_raulfernandezjimenez3"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Raúl Fernández Jiménez"}), (c:Correo {nombre: "correo_raulfernandezjimenez4"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Javier Flores Gil"}), (c:Correo {nombre: "correo_javierfloresgil1"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Javier Flores Gil"}), (c:Correo {nombre: "correo_javierfloresgil2"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Javier Flores Gil"}), (c:Correo {nombre: "correo_javierfloresgil3"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Javier Flores Gil"}), (c:Correo {nombre: "correo_javierfloresgil4"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Carlos Ortiz Jiménez"}), (c:Correo {nombre: "correo_carlosortizjimenez1"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Carlos Ortiz Jiménez"}), (c:Correo {nombre: "correo_carlosortizjimenez2"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Carlos Ortiz Jiménez"}), (c:Correo {nombre: "correo_carlosortizjimenez3"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Luis Ramos Ruiz"}), (c:Correo {nombre: "correo_luisramosruiz1"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Luis Ramos Ruiz"}), (c:Correo {nombre: "correo_luisramosruiz2"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Luis Ramos Ruiz"}), (c:Correo {nombre: "correo_luisramosruiz3"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Patricia Ramírez Ortiz"}), (c:Correo {nombre: "correo_patriciaramirezortiz1"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Patricia Ramírez Ortiz"}), (c:Correo {nombre: "correo_patriciaramirezortiz2"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Patricia Ramírez Ortiz"}), (c:Correo {nombre: "correo_patriciaramirezortiz3"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Patricia Ramírez Ortiz"}), (c:Correo {nombre: "correo_patriciaramirezortiz4"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Teresa Serrano Fernández"}), (c:Correo {nombre: "correo_teresaserranofernandez1"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Teresa Serrano Fernández"}), (c:Correo {nombre: "correo_teresaserranofernandez2"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Valeria García Ortiz"}), (c:Correo {nombre: "correo_valeriagarciaortiz1"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Valeria García Ortiz"}), (c:Correo {nombre: "correo_valeriagarciaortiz2"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Valeria García Ortiz"}), (c:Correo {nombre: "correo_valeriagarciaortiz3"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Valeria García Ortiz"}), (c:Correo {nombre: "correo_valeriagarciaortiz4"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Raquel Pérez Sánchez"}), (c:Correo {nombre: "correo_raquelperezsanchez1"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Raquel Pérez Sánchez"}), (c:Correo {nombre: "correo_raquelperezsanchez2"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Raquel Pérez Sánchez"}), (c:Correo {nombre: "correo_raquelperezsanchez3"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Raquel Pérez Sánchez"}), (c:Correo {nombre: "correo_raquelperezsanchez4"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Javier Sánchez Gutiérrez"}), (c:Correo {nombre: "correo_javiersanchezgutierrez1"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Javier Sánchez Gutiérrez"}), (c:Correo {nombre: "correo_javiersanchezgutierrez2"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Raúl Flores Romero"}), (c:Correo {nombre: "correo_raulfloresromero1"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Raúl Flores Romero"}), (c:Correo {nombre: "correo_raulfloresromero2"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Raúl Flores Romero"}), (c:Correo {nombre: "correo_raulfloresromero3"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Antonio García Díaz"}), (c:Correo {nombre: "correo_antoniogarciadiaz1"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Antonio García Díaz"}), (c:Correo {nombre: "correo_antoniogarciadiaz2"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Valeria Suárez Smith"}), (c:Correo {nombre: "correo_valeriasuarezsmith1"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Valeria Suárez Smith"}), (c:Correo {nombre: "correo_valeriasuarezsmith2"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Valeria Suárez Smith"}), (c:Correo {nombre: "correo_valeriasuarezsmith3"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Valeria Suárez Smith"}), (c:Correo {nombre: "correo_valeriasuarezsmith4"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Diego Jiménez Serrano"}), (c:Correo {nombre: "correo_diegojimenezserrano1"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Diego Jiménez Serrano"}), (c:Correo {nombre: "correo_diegojimenezserrano2"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Isabel Ramírez Smith"}), (c:Correo {nombre: "correo_isabelramirezsmith1"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Isabel Ramírez Smith"}), (c:Correo {nombre: "correo_isabelramirezsmith2"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Isabel Ramírez Smith"}), (c:Correo {nombre: "correo_isabelramirezsmith3"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Silvia Molina Hernández"}), (c:Correo {nombre: "correo_silviamolinahernandez1"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Silvia Molina Hernández"}), (c:Correo {nombre: "correo_silviamolinahernandez2"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Silvia Molina Hernández"}), (c:Correo {nombre: "correo_silviamolinahernandez3"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Silvia Molina Hernández"}), (c:Correo {nombre: "correo_silviamolinahernandez4"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Miguel Martín Martín"}), (c:Correo {nombre: "correo_miguelmartinmartin1"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Miguel Martín Martín"}), (c:Correo {nombre: "correo_miguelmartinmartin2"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Miguel Martín Martín"}), (c:Correo {nombre: "correo_miguelmartinmartin3"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Miguel Martín Martín"}), (c:Correo {nombre: "correo_miguelmartinmartin4"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Miguel Martín Martín"}), (c:Correo {nombre: "correo_miguelmartinmartin5"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Marcos López Torres"}), (c:Correo {nombre: "correo_marcoslopeztorres1"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Marcos López Torres"}), (c:Correo {nombre: "correo_marcoslopeztorres2"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Marcos López Torres"}), (c:Correo {nombre: "correo_marcoslopeztorres3"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Carlos Ruiz Hernández"}), (c:Correo {nombre: "correo_carlosruizhernandez1"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Carlos Ruiz Hernández"}), (c:Correo {nombre: "correo_carlosruizhernandez2"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Carlos Ruiz Hernández"}), (c:Correo {nombre: "correo_carlosruizhernandez3"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Carlos Ruiz Hernández"}), (c:Correo {nombre: "correo_carlosruizhernandez4"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Estefanía Jiménez Gutiérrez"}), (c:Correo {nombre: "correo_estefaniajimenezgutierrez1"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Estefanía Jiménez Gutiérrez"}), (c:Correo {nombre: "correo_estefaniajimenezgutierrez2"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Andrea Gómez Castro"}), (c:Correo {nombre: "correo_andreagomezcastro1"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Andrea Gómez Castro"}), (c:Correo {nombre: "correo_andreagomezcastro2"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Carmen Ramírez Suárez"}), (c:Correo {nombre: "correo_carmenramirezsuarez1"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Carmen Ramírez Suárez"}), (c:Correo {nombre: "correo_carmenramirezsuarez2"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Carmen Ramírez Suárez"}), (c:Correo {nombre: "correo_carmenramirezsuarez3"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Carmen Ramírez Suárez"}), (c:Correo {nombre: "correo_carmenramirezsuarez4"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Patricia Gil Suárez"}), (c:Correo {nombre: "correo_patriciagilsuarez1"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Patricia Gil Suárez"}), (c:Correo {nombre: "correo_patriciagilsuarez2"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Carlos Ramírez Hernández"}), (c:Correo {nombre: "correo_carlosramirezhernandez1"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Carlos Ramírez Hernández"}), (c:Correo {nombre: "correo_carlosramirezhernandez2"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Carlos Ramírez Hernández"}), (c:Correo {nombre: "correo_carlosramirezhernandez3"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Carlos Ramírez Hernández"}), (c:Correo {nombre: "correo_carlosramirezhernandez4"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Carlos Ramírez Hernández"}), (c:Correo {nombre: "correo_carlosramirezhernandez5"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Vicente López Vázquez"}), (c:Correo {nombre: "correo_vicentelopezvazquez1"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Vicente López Vázquez"}), (c:Correo {nombre: "correo_vicentelopezvazquez2"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Vicente López Vázquez"}), (c:Correo {nombre: "correo_vicentelopezvazquez3"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Julia Sánchez Gómez"}), (c:Correo {nombre: "correo_juliasanchezgomez1"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Julia Sánchez Gómez"}), (c:Correo {nombre: "correo_juliasanchezgomez2"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Julia Sánchez Gómez"}), (c:Correo {nombre: "correo_juliasanchezgomez3"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Julia Sánchez Gómez"}), (c:Correo {nombre: "correo_juliasanchezgomez4"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Ricardo Suárez Jiménez"}), (c:Correo {nombre: "correo_ricardosuarezjimenez1"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Ricardo Suárez Jiménez"}), (c:Correo {nombre: "correo_ricardosuarezjimenez2"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Ricardo Suárez Jiménez"}), (c:Correo {nombre: "correo_ricardosuarezjimenez3"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Marta Ramos Suárez"}), (c:Correo {nombre: "correo_martaramossuarez1"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Marta Ramos Suárez"}), (c:Correo {nombre: "correo_martaramossuarez2"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Marta Ramos Suárez"}), (c:Correo {nombre: "correo_martaramossuarez3"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Alejandra Torres Díaz"}), (c:Correo {nombre: "correo_alejandratorresdiaz1"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Alejandra Torres Díaz"}), (c:Correo {nombre: "correo_alejandratorresdiaz2"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Alejandra Torres Díaz"}), (c:Correo {nombre: "correo_alejandratorresdiaz3"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Alejandra Torres Díaz"}), (c:Correo {nombre: "correo_alejandratorresdiaz4"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Alejandra Torres Díaz"}), (c:Correo {nombre: "correo_alejandratorresdiaz5"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Ricardo Álvarez Serrano"}), (c:Correo {nombre: "correo_ricardoalvarezserrano1"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Ricardo Álvarez Serrano"}), (c:Correo {nombre: "correo_ricardoalvarezserrano2"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Estefanía Sánchez Jiménez"}), (c:Correo {nombre: "correo_estefaniasanchezjimenez1"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Estefanía Sánchez Jiménez"}), (c:Correo {nombre: "correo_estefaniasanchezjimenez2"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Estefanía Sánchez Jiménez"}), (c:Correo {nombre: "correo_estefaniasanchezjimenez3"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Germán Vázquez Moreno"}), (c:Correo {nombre: "correo_germanvazquezmoreno1"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Germán Vázquez Moreno"}), (c:Correo {nombre: "correo_germanvazquezmoreno2"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Germán Vázquez Moreno"}), (c:Correo {nombre: "correo_germanvazquezmoreno3"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Germán Vázquez Moreno"}), (c:Correo {nombre: "correo_germanvazquezmoreno4"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Germán Vázquez Moreno"}), (c:Correo {nombre: "correo_germanvazquezmoreno5"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Alejandra Hernández Molina"}), (c:Correo {nombre: "correo_alejandrahernandezmolina1"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Alejandra Hernández Molina"}), (c:Correo {nombre: "correo_alejandrahernandezmolina2"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Sergio Pérez Ramos"}), (c:Correo {nombre: "correo_sergioperezramos1"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Sergio Pérez Ramos"}), (c:Correo {nombre: "correo_sergioperezramos2"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Sergio Pérez Ramos"}), (c:Correo {nombre: "correo_sergioperezramos3"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Sergio Pérez Ramos"}), (c:Correo {nombre: "correo_sergioperezramos4"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Clara Jiménez Gutiérrez"}), (c:Correo {nombre: "correo_clarajimenezgutierrez1"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Clara Jiménez Gutiérrez"}), (c:Correo {nombre: "correo_clarajimenezgutierrez2"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Clara Jiménez Gutiérrez"}), (c:Correo {nombre: "correo_clarajimenezgutierrez3"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Clara Jiménez Gutiérrez"}), (c:Correo {nombre: "correo_clarajimenezgutierrez4"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Manuel García Castro"}), (c:Correo {nombre: "correo_manuelgarciacastro1"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Manuel García Castro"}), (c:Correo {nombre: "correo_manuelgarciacastro2"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Manuel García Castro"}), (c:Correo {nombre: "correo_manuelgarciacastro3"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Irene Ortiz Gutiérrez"}), (c:Correo {nombre: "correo_ireneortizgutierrez1"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Irene Ortiz Gutiérrez"}), (c:Correo {nombre: "correo_ireneortizgutierrez2"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Irene Ortiz Gutiérrez"}), (c:Correo {nombre: "correo_ireneortizgutierrez3"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Irene Ortiz Gutiérrez"}), (c:Correo {nombre: "correo_ireneortizgutierrez4"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Irene Ortiz Gutiérrez"}), (c:Correo {nombre: "correo_ireneortizgutierrez5"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Laura Sánchez Ramos"}), (c:Correo {nombre: "correo_laurasanchezramos1"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Laura Sánchez Ramos"}), (c:Correo {nombre: "correo_laurasanchezramos2"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Laura Sánchez Ramos"}), (c:Correo {nombre: "correo_laurasanchezramos3"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Laura Sánchez Ramos"}), (c:Correo {nombre: "correo_laurasanchezramos4"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Laura Sánchez Ramos"}), (c:Correo {nombre: "correo_laurasanchezramos5"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Manuel Vázquez Gil"}), (c:Correo {nombre: "correo_manuelvazquezgil1"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Manuel Vázquez Gil"}), (c:Correo {nombre: "correo_manuelvazquezgil2"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Manuel Vázquez Gil"}), (c:Correo {nombre: "correo_manuelvazquezgil3"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Manuel Vázquez Gil"}), (c:Correo {nombre: "correo_manuelvazquezgil4"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Manuel Vázquez Gil"}), (c:Correo {nombre: "correo_manuelvazquezgil5"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Clara Torres Martínez"}), (c:Correo {nombre: "correo_claratorresmartinez1"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Clara Torres Martínez"}), (c:Correo {nombre: "correo_claratorresmartinez2"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Javier Ramírez Navarro"}), (c:Correo {nombre: "correo_javierramireznavarro1"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Javier Ramírez Navarro"}), (c:Correo {nombre: "correo_javierramireznavarro2"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Javier Ramírez Navarro"}), (c:Correo {nombre: "correo_javierramireznavarro3"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Javier Ramírez Navarro"}), (c:Correo {nombre: "correo_javierramireznavarro4"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Diego Rodríguez Castro"}), (c:Correo {nombre: "correo_diegorodriguezcastro1"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Diego Rodríguez Castro"}), (c:Correo {nombre: "correo_diegorodriguezcastro2"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Diego Rodríguez Castro"}), (c:Correo {nombre: "correo_diegorodriguezcastro3"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Diego Rodríguez Castro"}), (c:Correo {nombre: "correo_diegorodriguezcastro4"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Clara Ramos Jiménez"}), (c:Correo {nombre: "correo_clararamosjimenez1"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Clara Ramos Jiménez"}), (c:Correo {nombre: "correo_clararamosjimenez2"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Raúl Ortiz Martínez"}), (c:Correo {nombre: "correo_raulortizmartinez1"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Raúl Ortiz Martínez"}), (c:Correo {nombre: "correo_raulortizmartinez2"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Raúl Ortiz Martínez"}), (c:Correo {nombre: "correo_raulortizmartinez3"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Raúl Ortiz Martínez"}), (c:Correo {nombre: "correo_raulortizmartinez4"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Raúl Ortiz Martínez"}), (c:Correo {nombre: "correo_raulortizmartinez5"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Victoria Smith Molina"}), (c:Correo {nombre: "correo_victoriasmithmolina1"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Victoria Smith Molina"}), (c:Correo {nombre: "correo_victoriasmithmolina2"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Victoria Smith Molina"}), (c:Correo {nombre: "correo_victoriasmithmolina3"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Victoria Smith Molina"}), (c:Correo {nombre: "correo_victoriasmithmolina4"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Teresa Hernández Suárez"}), (c:Correo {nombre: "correo_teresahernandezsuarez1"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Teresa Hernández Suárez"}), (c:Correo {nombre: "correo_teresahernandezsuarez2"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Luis Vázquez Castro"}), (c:Correo {nombre: "correo_luisvazquezcastro1"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Luis Vázquez Castro"}), (c:Correo {nombre: "correo_luisvazquezcastro2"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Luis Vázquez Castro"}), (c:Correo {nombre: "correo_luisvazquezcastro3"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Luis Vázquez Castro"}), (c:Correo {nombre: "correo_luisvazquezcastro4"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Luis Vázquez Castro"}), (c:Correo {nombre: "correo_luisvazquezcastro5"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Ricardo Molina Martín"}), (c:Correo {nombre: "correo_ricardomolinamartin1"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Ricardo Molina Martín"}), (c:Correo {nombre: "correo_ricardomolinamartin2"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Ricardo Molina Martín"}), (c:Correo {nombre: "correo_ricardomolinamartin3"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Ricardo Molina Martín"}), (c:Correo {nombre: "correo_ricardomolinamartin4"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Diego Navarro Gil"}), (c:Correo {nombre: "correo_diegonavarrogil1"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Diego Navarro Gil"}), (c:Correo {nombre: "correo_diegonavarrogil2"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Ricardo Hernández Molina"}), (c:Correo {nombre: "correo_ricardohernandezmolina1"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Ricardo Hernández Molina"}), (c:Correo {nombre: "correo_ricardohernandezmolina2"})
+MERGE (e)-[:TIENE_CORREO]->(c);
+MATCH (e:Empleado {nombre: "Ricardo Hernández Molina"}), (c:Correo {nombre: "correo_ricardohernandezmolina3"})
+MERGE (e)-[:TIENE_CORREO]->(c);
