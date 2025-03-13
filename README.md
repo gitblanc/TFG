@@ -66,6 +66,25 @@ pip install -r /path/to/TFG/requirements.txt
 
 Busca y abre `osint_investigation.ipynb` en Jupyter Notebook.
 
+## 📚 Entender el Código
+
+El proyecto se divide en dos secciones principales: **Visualización** y **Creación**.
+
+>[!Tip]
+>Asegúrate de ejecutar primero los scripts de creación para luego visualizar los resultados con los scripts de visualización.
+
+### 👀 Visualización
+
+🔍 **Busca en la Notebook**: "Investigación OSINT" o dirígete al principio de la Notebook.
+
+Esta sección contiene los scripts encargados de mostrar el grafo de la investigación. Debes ejecutarlos **después de haber generado los datos o tener los scripts listos** de una investigación previa. Aquí podrás ver cómo se representa visualmente la estructura de la investigación.
+
+### 🛠️ Creación
+
+🔍 **Busca en la Notebook**: "Anonimizador de datos".
+
+Esta parte incluye los scripts responsables de generar los **datos aleatorios** necesarios para llevar a cabo la investigación. Aquí se crean los datos ficticios que permiten simular una investigación sin comprometer información real.
+
 ## 📊 Ejemplo de Resultados
 
 ### 🔍 Estructura del Grafo
