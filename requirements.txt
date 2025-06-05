@@ -4,4 +4,3 @@ plotly
 ipython
 bcrypt
 numpy
-"plotly[express]"
