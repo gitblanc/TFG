@@ -4,3 +4,4 @@ plotly
 ipython
 bcrypt
 numpy
+pandas
