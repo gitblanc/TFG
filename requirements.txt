@@ -3,3 +3,5 @@ pyvis
 plotly
 ipython
 bcrypt
+numpy
+"plotly[express]"
